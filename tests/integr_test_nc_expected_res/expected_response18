@@ -1,0 +1,132 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 6893
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+* { font-family: sans-serif; } 
+body { background-color: aliceblue; }
+p { color: blue; }
+p, input, label { margin: 8px; }
+input[type=submit] { background-color: powderblue; padding: 10px; border: none; }
+input[type=submit]:hover { background-color: blue; color: white; }
+</style>
+
+<script>
+    function crudTypeSelectionHandler(ans) {
+        if (ans == "create-board") {
+            document.getElementById("BoardID").style.display = "block";
+            document.querySelector("#BoardID input").required = false;
+            document.getElementById("BoardPin").style.display = "block";
+            document.querySelector("#BoardPin input").required = true;
+            document.getElementById("NoteID").style.display = "none";
+            document.querySelector("#NoteID input").required = false;
+            document.getElementById("NoteText").style.display = "none";
+            document.querySelector("#NoteText input").required = false;
+        } 
+        else if (ans == "view-board") {
+            document.getElementById("BoardID").style.display = "block";
+            document.querySelector("#BoardID input").required = false;
+            document.getElementById("BoardPin").style.display = "none";
+            document.querySelector("#BoardPin input").required = false;
+            document.getElementById("NoteID").style.display = "none";
+            document.querySelector("#NoteID input").required = false;
+            document.getElementById("NoteText").style.display = "none";
+            document.querySelector("#NoteText input").required = false;
+        }
+        else if (ans == "post-note") {
+            document.getElementById("BoardID").style.display = "block";
+            document.querySelector("#BoardID input").required = false;
+            document.getElementById("BoardPin").style.display = "block";
+            document.querySelector("#BoardPin input").required = true;
+            document.getElementById("NoteID").style.display = "none";
+            document.querySelector("#NoteID input").required = false;
+            document.getElementById("NoteText").style.display = "block";
+            document.querySelector("#NoteText input").required = true;
+        }
+        else if (ans == "delete-note") {
+            document.getElementById("BoardID").style.display = "block";
+            document.querySelector("#BoardID input").required = false;
+            document.getElementById("BoardPin").style.display = "block";
+            document.querySelector("#BoardPin input").required = true;
+            document.getElementById("NoteID").style.display = "block";
+            document.querySelector("#NoteID input").required = true;
+            document.getElementById("NoteText").style.display = "none";
+            document.querySelector("#NoteText input").required = false;
+        }
+        else if (ans == "update-note") {
+            document.getElementById("BoardID").style.display = "block";
+            document.querySelector("#BoardID input").required = false;
+            document.getElementById("BoardPin").style.display = "block";
+            document.querySelector("#BoardPin input").required = true;
+            document.getElementById("NoteID").style.display = "block";
+            document.querySelector("#NoteID input").required = true;
+            document.getElementById("NoteText").style.display = "block";
+            document.querySelector("#NoteText input").required = true;
+        }
+        else if (ans == "get-boards") {
+            document.getElementById("BoardID").style.display = "none";
+            document.querySelector("#BoardID input").required = false;
+            document.getElementById("BoardPin").style.display = "none";
+            document.querySelector("#BoardPin input").required = false;
+            document.getElementById("NoteID").style.display = "none";
+            document.querySelector("#NoteID input").required = false;
+            document.getElementById("NoteText").style.display = "none";
+            document.querySelector("#NoteText input").required = false;
+        }
+    }
+</script>
+<h2>Bulletin Board</h2>
+<h3>CS 130 Assignment 9</h3>
+
+<form action="/board" method="post" enctype="text/plain">
+    <!-- User can do one of 5 things: create new board, view existing board, create, delete, or update a note on existing board -->
+    <div id="CRUDOptions"<br/>
+    <p>Please select one:</p>
+        <input type="radio" id="create-board" name="crud-type" value="create-board" onchange="crudTypeSelectionHandler(this.value)">
+        <label for="create-board">Create a new board</label><br>
+        <input type="radio" id="view-board" name="crud-type" value="view-board" onchange="crudTypeSelectionHandler(this.value)">
+        <label for="view-board">View the board</label><br>
+        <input type="radio" id="get-boards" name="crud-type" value="get-boards" onchange="crudTypeSelectionHandler(this.value)">
+        <label for="view-board">Get names of all existing boards</label><br>
+        <input type="radio" id="post-note" name="crud-type" value="post-note" onchange="crudTypeSelectionHandler(this.value)">
+        <label for="post-note">Post a new note on an existing board</label><br>
+        <input type="radio" id="delete-note" name="crud-type" value="delete-note" onchange="crudTypeSelectionHandler(this.value)">
+        <label for="delete-note">Delete a note from an existing board</label><br>
+        <input type="radio" id="update-note" name="crud-type" value="update-note" onchange="crudTypeSelectionHandler(this.value)">
+        <label for="update-note">Update a note on an existing board</label><br>
+    </div>
+
+    <!-- User enters the name for the board (either new name, or name or existing board) -->
+    <div id="BoardID" <br/>
+        <p>Enter a name for the new board or name of the existing board (name must consist of alphanumeric characters only)</p>
+        <label for="board-ID">Board ID: </label>
+        <input type="text" id="board-ID" name="board-ID"><br>
+    </div> 
+    <div id="BoardPin"<br/>
+        <p>Enter the pin for the board (must be 4 digits)</p>
+        <label for="board-PIN">Board PIN: </label>
+        <input type="text" id="board-PIN" name="board-PIN"><br>
+    </div>
+
+    <div id="NoteID" style="display:none;"<br/>
+        <p>Enter the note ID (must be numeric)</p>
+        <label for="note-ID">Note ID: </label>
+        <input type="text" id="note-ID" name="note-ID"><br>
+    </div>
+
+    <div id="NoteText" style="display:none;"<br/>
+        <p>Enter the text to be written on the note</p>
+        <label for="note-text">Note contents: </label>
+        <input type="text" id="note-text" name="note-text"><br>
+    </div>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+

@@ -1,0 +1,9 @@
+To make an http request file for testing purposes, use echo into a file
+so that you can put carriage-return line-feeds (CRLFs) as needed.
+For example, run:
+
+echo -ne "GET /static1/subdir/sample.html HTTP/1.1\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)\r\nAccept-Language: en-us\r\n\r\nThis is some very interesting message body text!" > reqX
+
+Then to connect to the server and send this HTTP request, run:
+
+cat reqX | nc localhost 8080

@@ -1,0 +1,6 @@
+HTTP/1.1 201 Created
+Content-Length: 62
+Content-Type: text/plain
+Content-Location: /board/crazyboard
+
+Successfully created board with ID: crazyboard and PIN: 1234

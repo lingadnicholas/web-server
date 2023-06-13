@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Content-Length: 242
+Content-Type: application/json
+
+{"menu": {
+  "popup": {
+    "menuitem": [
+      {"value": "Close", "onclick": "CloseDoc()"}
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "New", "onclick": "CreateNewDoc()"},
+    ]
+  },
+  "value": "File",
+  "id": "file"
+}}

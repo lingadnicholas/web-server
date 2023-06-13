@@ -1,0 +1,4 @@
+GET /board HTTP/1.1
+Connection: keep-alive
+Accept-Language: en-US,en;q=0.9
+

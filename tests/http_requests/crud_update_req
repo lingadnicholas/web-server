@@ -1,0 +1,16 @@
+PUT /api/integration_test/1 HTTP/1.1
+Host: www.example.com
+Content-Type: application/json
+Content-Length: 242
+
+{"menu": {
+  "popup": {
+    "menuitem": [
+      {"value": "Close", "onclick": "CloseDoc()"}
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "New", "onclick": "CreateNewDoc()"},
+    ]
+  },
+  "value": "File",
+  "id": "file"
+}}

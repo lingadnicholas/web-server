@@ -1,0 +1,5 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 699
+
+<!DOCTYPE html><html><body><style>body { margin: 20px auto; font-family: sans-serif; background:tan; color:#fff; }* { margin: 0; padding: 0; }h1 { margin: 10px; text-align: center; }h2 { margin: 10px; font-size: 6rem; color: darkblue; text-align: center; }h3 { font-size: 1rem; }p { font-size: 1rem; }ul,li { list-style: none; }ul { display: flex; flex-wrap: wrap; justify-content: center; }ul li #note { text-decoration:none; color:#000; background: rgb(255, 255, 120); display:block; height:10em; width:10em; padding:1em; }ul li { margin: 1em; }</style><h1>Bulletin Board - CS130 Assignment 9</h1><h2>Board Names</h2><ul><li><div id="note"><h3>1</h3><p>crazyboard</p></div></li></ul></body></html>

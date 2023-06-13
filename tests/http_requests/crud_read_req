@@ -1,0 +1,5 @@
+GET /api/integration_test/1 HTTP/1.1
+Host: www.example.com
+Content-Type: application/json
+Content-Length: 0
+
