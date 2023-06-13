@@ -1,0 +1,21 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+#define HTTP_STATUS_OK 200
+#define HTTP_REASON_OK "OK"
+#define HTTP_STATUS_CREATED 201
+#define HTTP_REASON_CREATED "Created"
+
+#define HTTP_STATUS_BAD_REQUEST 400
+#define HTTP_REASON_BAD_REQUEST "Bad Request"
+#define HTTP_STATUS_NOT_FOUND   404
+#define HTTP_REASON_NOT_FOUND "Not Found"
+
+#define HTTP_STATUS_INTERNAL_SERVER_ERROR 500
+#define HTTP_REASON_INTERNAL_SERVER_ERROR "Internal Server Error"
+
+#define CONTENT_TYPE_TEXT_PLAIN "text/plain"
+#define CONTENT_TYPE_TEXT_HTML "text/html"
+#define CONTENT_TYPE_APPL_JSON "application/json"
+
+#endif

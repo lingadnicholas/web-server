@@ -1,0 +1,1358 @@
+[2023-06-06 23:12:08.091787] [0x00007f4b3c34e740] [info]: main : Server received valid number of arguments (1 config file)
+[2023-06-06 23:12:08.092110] [0x00007f4b3c34e740] [info]: main : Using port 8080
+[2023-06-06 23:12:08.092308] [0x00007f4b3c34e740] [info]: main : hdlrMap_: URL path: '/' handled by 'ErrorHandler' with configurations '0x55ff501ba170
+[2023-06-06 23:12:08.092356] [0x00007f4b3c34e740] [info]: main : hdlrMap_: URL path: '/api' handled by 'ApiHandler' with configurations '0x55ff501ba270
+[2023-06-06 23:12:08.092391] [0x00007f4b3c34e740] [info]: main : hdlrMap_: URL path: '/board' handled by 'BoardHandler' with configurations '0x55ff501ba6b0
+[2023-06-06 23:12:08.092428] [0x00007f4b3c34e740] [info]: main : hdlrMap_: URL path: '/echo' handled by 'EchoHandler' with configurations '0x55ff501b3730
+[2023-06-06 23:12:08.092471] [0x00007f4b3c34e740] [info]: main : hdlrMap_: URL path: '/health' handled by 'HealthHandler' with configurations '0x55ff501ba5b0
+[2023-06-06 23:12:08.092504] [0x00007f4b3c34e740] [info]: main : hdlrMap_: URL path: '/sleep' handled by 'BlockHandler' with configurations '0x55ff501ba4b0
+[2023-06-06 23:12:08.092537] [0x00007f4b3c34e740] [info]: main : hdlrMap_: URL path: '/static1' handled by 'StaticHandler' with configurations '0x55ff501b99d0
+[2023-06-06 23:12:08.092606] [0x00007f4b3c34e740] [info]: main : hdlrMap_: URL path: '/static1/images' handled by 'StaticHandler' with configurations '0x55ff501b9dd0
+[2023-06-06 23:12:08.092650] [0x00007f4b3c34e740] [info]: main : hdlrMap_: URL path: '/static1/text' handled by 'StaticHandler' with configurations '0x55ff501b9bb0
+[2023-06-06 23:12:08.092690] [0x00007f4b3c34e740] [info]: main : hdlrMap_: URL path: '/static2' handled by 'StaticHandler' with configurations '0x55ff501b9fb0
+[2023-06-06 23:12:08.092823] [0x00007f4b3c34e740] [info]: In server constructor
+[2023-06-06 23:12:08.092858] [0x00007f4b3c34e740] [info]: server :: constructor : adding routes_ mapping for location = '/' to 'ErrorHandler' Factory pointer
+[2023-06-06 23:12:08.092889] [0x00007f4b3c34e740] [info]: ErrorHandlerFactory :: Constructor
+[2023-06-06 23:12:08.092927] [0x00007f4b3c34e740] [info]: server :: constructor : createHandlerFactory successful
+[2023-06-06 23:12:08.092961] [0x00007f4b3c34e740] [info]: server :: constructor : adding routes_ mapping for location = '/api' to 'ApiHandler' Factory pointer
+[2023-06-06 23:12:08.092996] [0x00007f4b3c34e740] [info]: ApiHandlerFactory :: Constructor
+[2023-06-06 23:12:08.093032] [0x00007f4b3c34e740] [info]: server :: constructor : createHandlerFactory successful
+[2023-06-06 23:12:08.093065] [0x00007f4b3c34e740] [info]: server :: constructor : adding routes_ mapping for location = '/board' to 'BoardHandler' Factory pointer
+[2023-06-06 23:12:08.093102] [0x00007f4b3c34e740] [info]: BoardHandlerFactory :: Constructor
+[2023-06-06 23:12:08.093143] [0x00007f4b3c34e740] [info]: server :: constructor : createHandlerFactory successful
+[2023-06-06 23:12:08.093175] [0x00007f4b3c34e740] [info]: server :: constructor : adding routes_ mapping for location = '/echo' to 'EchoHandler' Factory pointer
+[2023-06-06 23:12:08.093210] [0x00007f4b3c34e740] [info]: EchoHandlerFactory :: Constructor
+[2023-06-06 23:12:08.093246] [0x00007f4b3c34e740] [info]: server :: constructor : createHandlerFactory successful
+[2023-06-06 23:12:08.093279] [0x00007f4b3c34e740] [info]: server :: constructor : adding routes_ mapping for location = '/health' to 'HealthHandler' Factory pointer
+[2023-06-06 23:12:08.093314] [0x00007f4b3c34e740] [info]: HealthHandlerFactory :: Constructor
+[2023-06-06 23:12:08.093350] [0x00007f4b3c34e740] [info]: server :: constructor : createHandlerFactory successful
+[2023-06-06 23:12:08.093383] [0x00007f4b3c34e740] [info]: server :: constructor : adding routes_ mapping for location = '/sleep' to 'BlockHandler' Factory pointer
+[2023-06-06 23:12:08.093420] [0x00007f4b3c34e740] [info]: BlockHandlerFactory :: Constructor
+[2023-06-06 23:12:08.093457] [0x00007f4b3c34e740] [info]: server :: constructor : createHandlerFactory successful
+[2023-06-06 23:12:08.093489] [0x00007f4b3c34e740] [info]: server :: constructor : adding routes_ mapping for location = '/static1' to 'StaticHandler' Factory pointer
+[2023-06-06 23:12:08.093551] [0x00007f4b3c34e740] [info]: StaticHandlerFactory :: Constructor
+[2023-06-06 23:12:08.093588] [0x00007f4b3c34e740] [info]: server :: constructor : createHandlerFactory successful
+[2023-06-06 23:12:08.093620] [0x00007f4b3c34e740] [info]: server :: constructor : adding routes_ mapping for location = '/static1/images' to 'StaticHandler' Factory pointer
+[2023-06-06 23:12:08.093655] [0x00007f4b3c34e740] [info]: StaticHandlerFactory :: Constructor
+[2023-06-06 23:12:08.093691] [0x00007f4b3c34e740] [info]: server :: constructor : createHandlerFactory successful
+[2023-06-06 23:12:08.093723] [0x00007f4b3c34e740] [info]: server :: constructor : adding routes_ mapping for location = '/static1/text' to 'StaticHandler' Factory pointer
+[2023-06-06 23:12:08.093758] [0x00007f4b3c34e740] [info]: StaticHandlerFactory :: Constructor
+[2023-06-06 23:12:08.093794] [0x00007f4b3c34e740] [info]: server :: constructor : createHandlerFactory successful
+[2023-06-06 23:12:08.093826] [0x00007f4b3c34e740] [info]: server :: constructor : adding routes_ mapping for location = '/static2' to 'StaticHandler' Factory pointer
+[2023-06-06 23:12:08.093861] [0x00007f4b3c34e740] [info]: StaticHandlerFactory :: Constructor
+[2023-06-06 23:12:08.093896] [0x00007f4b3c34e740] [info]: server :: constructor : createHandlerFactory successful
+[2023-06-06 23:12:08.093932] [0x00007f4b3c34e740] [info]: server :: start_accept()
+[2023-06-06 23:12:08.094029] [0x00007f4b3c34e740] [info]: main : Created server object, now calling server.run()
+[2023-06-06 23:12:09.094699] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:09.094826] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:09.094858] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:09.094909] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:09.094974] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:09.095001] [0x00007f4b3c34d640] [info]: Bytes received: 5
+[2023-06-06 23:12:09.095023] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[test
+]
+[2023-06-06 23:12:09.095053] [0x00007f4b3c34d640] [info]: session :: getFields(): incomplete/invalid request received
+[2023-06-06 23:12:09.095097] [0x00007f4b3c34d640] [info]: ConcreteSession :: match : requestURI=
+[2023-06-06 23:12:09.095134] [0x00007f4b3c34d640] [info]: ConcreteSession :: match : result=
+[2023-06-06 23:12:09.095159] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : match function returned loc=
+[2023-06-06 23:12:09.095178] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : invalid request received: bad method
+[2023-06-06 23:12:09.095219] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 400 Bad Request
+
+]
+[2023-06-06 23:12:09.095244] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : num bytes in response = 28
+[2023-06-06 23:12:09.095313] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:10.094412] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:10.094598] [0x00007f4b3bb4c640] [info]: Bytes received: 0
+[2023-06-06 23:12:10.101747] [0x00007f4b3ab4a640] [info]: server :: handle_accept()
+[2023-06-06 23:12:10.101882] [0x00007f4b3ab4a640] [info]: Starting new session
+[2023-06-06 23:12:10.101924] [0x00007f4b3ab4a640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:10.101981] [0x00007f4b3ab4a640] [info]: server :: start_accept()
+[2023-06-06 23:12:10.102023] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:10.102070] [0x00007f4b3bb4c640] [info]: Bytes received: 149
+[2023-06-06 23:12:10.102120] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /echo HTTP/1.1
+Host: www.blahblah.com
+Accept: image/gif, image/jpeg, */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+body text
+]
+[2023-06-06 23:12:10.102275] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : requestURI=/echo
+[2023-06-06 23:12:10.102320] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : result=/echo
+[2023-06-06 23:12:10.102353] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : match function returned loc=/echo
+[2023-06-06 23:12:10.102389] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : found longest match=/echo
+[2023-06-06 23:12:10.102430] [0x00007f4b3bb4c640] [info]: EchoRequestHandler :: Constructor
+[2023-06-06 23:12:10.102514] [0x00007f4b3bb4c640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:10.102589] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 149
+
+GET /echo HTTP/1.1
+Host: www.blahblah.com
+Accept: image/gif, image/jpeg, */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+body text
+]
+[2023-06-06 23:12:10.102625] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : num bytes in response = 215
+[2023-06-06 23:12:10.102852] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:11.101304] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:11.101432] [0x00007f4b3c34d640] [info]: Bytes received: 0
+[2023-06-06 23:12:11.107615] [0x00007f4b3ab4a640] [info]: server :: handle_accept()
+[2023-06-06 23:12:11.107718] [0x00007f4b3ab4a640] [info]: Starting new session
+[2023-06-06 23:12:11.107746] [0x00007f4b3ab4a640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:11.107787] [0x00007f4b3ab4a640] [info]: server :: start_accept()
+[2023-06-06 23:12:11.107849] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:11.107885] [0x00007f4b3ab4a640] [info]: Bytes received: 174
+[2023-06-06 23:12:11.107919] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /static1/text/file1.txt HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+Accept-Language: en-us
+
+This is some very interesting message body text!
+]
+[2023-06-06 23:12:11.107983] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : requestURI=/static1/text/file1.txt
+[2023-06-06 23:12:11.108017] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : result=/static1/text
+[2023-06-06 23:12:11.108033] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : match function returned loc=/static1/text
+[2023-06-06 23:12:11.108061] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : found longest match=/static1/text
+[2023-06-06 23:12:11.108092] [0x00007f4b3ab4a640] [info]: StaticRequestHandler :: Constructor
+[2023-06-06 23:12:11.108122] [0x00007f4b3ab4a640] [info]: StaticRequestHandler :: Constructor : config is good, loc=/static1/text and root=../data/data_text
+[2023-06-06 23:12:11.108161] [0x00007f4b3ab4a640] [info]: StaticRequestHandler: handleRequest : Longest matched path for /static1/text/file1.txt is /static1/text
+[2023-06-06 23:12:11.108189] [0x00007f4b3ab4a640] [info]: StaticRequestHandler: handleRequest : File path to be used is ../data/data_text/file1.txt
+[2023-06-06 23:12:11.108284] [0x00007f4b3ab4a640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:11.108331] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 45
+
+The quick brown fox jumps over the lazy dog.
+]
+[2023-06-06 23:12:11.108362] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : num bytes in response = 110
+[2023-06-06 23:12:11.108448] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:12.107675] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:12.107782] [0x00007f4b3b34b640] [info]: Bytes received: 0
+[2023-06-06 23:12:12.113905] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:12.113998] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:12.114044] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:12.114119] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:12.114151] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:12.114198] [0x00007f4b3b34b640] [info]: Bytes received: 139
+[2023-06-06 23:12:12.114245] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /static1/images/orange-sun-small.jpg HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+Accept-Language: en-us
+
+
+]
+[2023-06-06 23:12:12.114310] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : requestURI=/static1/images/orange-sun-small.jpg
+[2023-06-06 23:12:12.114344] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : result=/static1/images
+[2023-06-06 23:12:12.114360] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : match function returned loc=/static1/images
+[2023-06-06 23:12:12.114374] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : found longest match=/static1/images
+[2023-06-06 23:12:12.114391] [0x00007f4b3b34b640] [info]: StaticRequestHandler :: Constructor
+[2023-06-06 23:12:12.114406] [0x00007f4b3b34b640] [info]: StaticRequestHandler :: Constructor : config is good, loc=/static1/images and root=../data/data_images
+[2023-06-06 23:12:12.114426] [0x00007f4b3b34b640] [info]: StaticRequestHandler: handleRequest : Longest matched path for /static1/images/orange-sun-small.jpg is /static1/images
+[2023-06-06 23:12:12.114454] [0x00007f4b3b34b640] [info]: StaticRequestHandler: handleRequest : File path to be used is ../data/data_images/orange-sun-small.jpg
+[2023-06-06 23:12:12.114667] [0x00007f4b3b34b640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:12.114728] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: image/jpeg
+Content-Length: 1295
+
+ˇÿˇ‡ JFIF      ˇ€ C 		
+
+	 "" $(4,$&1'-=-157:::#+?D?8C49:7ˇ€ C
+
+
+7%%77777777777777777777777777777777777777777777777777ˇ¿  A 2" ˇƒ           	
+ˇƒ µ   } !1AQa"q2Åë°#B±¡R—$3brÇ	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzÉÑÖÜáàâäíìîïñóòôö¢£§•¶ß®©™≤≥¥µ∂∑∏π∫¬√ƒ≈∆«»… “”‘’÷◊ÿŸ⁄·‚„‰ÂÊÁËÈÍÒÚÛÙıˆ˜¯˘˙ˇƒ        	
+ˇƒ µ  w !1AQaq"2ÅBë°±¡	#3Rbr—
+$4·%Ò&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzÇÉÑÖÜáàâäíìîïñóòôö¢£§•¶ß®©™≤≥¥µ∂∑∏π∫¬√ƒ≈∆«»… “”‘’÷◊ÿŸ⁄‚„‰ÂÊÁËÈÍÚÛÙıˆ˜¯˘˙ˇ⁄   ? ¿©R"‹‡”≠‚›ÇjÊ’årkÀg—X¨∂˘ÌH÷¯Ïj÷Ûö7û‚êÏg∫=2¥då:í*ÑâµÒLM¢è∆è∆ùÑjB°W<Ry"•˜cÎBŒ™Gäó++öFÌÿbƒÓ2ë±˜öPÉÇ>ı–⁄ƒÇ ı™ö¥J∏aåÁ•r«‹¨—”*)F˜2ê`„<U{®«&≠cöm¬Âz◊Zg+hÀ⁄(⁄*Rúı§ŸÔUq…Ã}zRrı™0ÍëúÌRF?Zñk°¥b>gÜ°”{3?¨√tl€ﬁ≤GÜG8ÓVªùÁ`X;VY‘N¬Bdån¶çIáÑ«Q4"Ó«I´¬ÜÂ@#ÎI:±‡!?ATõQTRJ„”ü˛µg›ÍÂãmB1ŒÌ›?V™öf/mÕ)ˇ Áõˇ ﬂ&è%ˇ Áõˇ ﬂ&≤ˇ ∂Ò¡`HÍr¬èÌ¡Í?3˛^»èÆy–›®aÛ`U‰æ@∏i ı5œ£˘/¥FFIØ¯z”K…-…XîÒú∞«QäŸNjè"â:OåYA<Äx§ñÂ#è*g¶:ö∆éIpø0ÍXz~}*9da"Ô,HÅ¸=~µú§∫ºKHªq|¨ÖïèÁÉäÕyY……lzuß¯Ÿ»√3ûv¡ı…Ù¶IpåI€úé‹t«zﬁåÈm3?op;I…ÎÙ£˛E9t˜eK'#?pç/ˆtüÛ÷O˚‡ÒU’l?Ûáµqˇ -ˇ ‹OÎUÌ„Âˇ ‰j≈«¸∑ˇ q?≠Wµˇ èó¸ëØ4Êé‰◊ÚÔ˝öî˝…>¥óÚÔ˝öî˝…>µ3ÿöÇO˜WËø˙¶€»F˜á˛ÉNüÓØ—Ù!M∂ˇ êå?Ô˝àl4KETîˇŸ]
+[2023-06-06 23:12:12.114760] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : num bytes in response = 1362
+[2023-06-06 23:12:12.114834] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:13.114007] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:13.114155] [0x00007f4b3bb4c640] [info]: Bytes received: 0
+[2023-06-06 23:12:13.120085] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:13.120251] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:13.120328] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:13.120420] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:13.120465] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:13.120621] [0x00007f4b3bb4c640] [info]: Bytes received: 37
+[2023-06-06 23:12:13.120683] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /static1/files.zip HTTP/1.1
+
+
+]
+[2023-06-06 23:12:13.120741] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : requestURI=/static1/files.zip
+[2023-06-06 23:12:13.120776] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : result=/static1
+[2023-06-06 23:12:13.120804] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : match function returned loc=/static1
+[2023-06-06 23:12:13.120833] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : found longest match=/static1
+[2023-06-06 23:12:13.120869] [0x00007f4b3bb4c640] [info]: StaticRequestHandler :: Constructor
+[2023-06-06 23:12:13.120898] [0x00007f4b3bb4c640] [info]: StaticRequestHandler :: Constructor : config is good, loc=/static1 and root=../data/data_other
+[2023-06-06 23:12:13.120931] [0x00007f4b3bb4c640] [info]: StaticRequestHandler: handleRequest : Longest matched path for /static1/files.zip is /static1
+[2023-06-06 23:12:13.120958] [0x00007f4b3bb4c640] [info]: StaticRequestHandler: handleRequest : File path to be used is ../data/data_other/files.zip
+[2023-06-06 23:12:13.121082] [0x00007f4b3bb4c640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:13.121136] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: application/zip
+Content-Length: 512
+
+PK
+     êRûV              zipDir/UT	 _£NdÖ£Ndux Ë  Ë  PK
+     6RûV¶„ß•        zipDir/file1.txtUT	 ∏¢Nd_£Ndux Ë  Ë  this is file1
+PK
+     :RûVe∞äé        zipDir/file2.txtUT	 ¿¢Nd_£Ndux Ë  Ë  this is file2
+PK
+     êRûV                     ÌA    zipDir/UT _£Ndux Ë  Ë  PK
+     6RûV¶„ß•               §ÅA   zipDir/file1.txtUT ∏¢Ndux Ë  Ë  PK
+     :RûVe∞äé               §Åô   zipDir/file2.txtUT ¿¢Ndux Ë  Ë  PK      ˘   Ò     ]
+[2023-06-06 23:12:13.121157] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : num bytes in response = 583
+[2023-06-06 23:12:13.121222] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:14.120113] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:14.120239] [0x00007f4b3b34b640] [info]: Bytes received: 0
+[2023-06-06 23:12:14.126294] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:14.126416] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:14.126445] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:14.126569] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:14.126604] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:14.126699] [0x00007f4b3b34b640] [info]: Bytes received: 128
+[2023-06-06 23:12:14.126726] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /static1/text/sample.html HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+Accept-Language: en-us
+
+
+]
+[2023-06-06 23:12:14.126790] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : requestURI=/static1/text/sample.html
+[2023-06-06 23:12:14.126821] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : result=/static1/text
+[2023-06-06 23:12:14.126841] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : match function returned loc=/static1/text
+[2023-06-06 23:12:14.126861] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : found longest match=/static1/text
+[2023-06-06 23:12:14.126885] [0x00007f4b3b34b640] [info]: StaticRequestHandler :: Constructor
+[2023-06-06 23:12:14.126907] [0x00007f4b3b34b640] [info]: StaticRequestHandler :: Constructor : config is good, loc=/static1/text and root=../data/data_text
+[2023-06-06 23:12:14.126953] [0x00007f4b3b34b640] [info]: StaticRequestHandler: handleRequest : Longest matched path for /static1/text/sample.html is /static1/text
+[2023-06-06 23:12:14.126975] [0x00007f4b3b34b640] [info]: StaticRequestHandler: handleRequest : File path to be used is ../data/data_text/sample.html
+[2023-06-06 23:12:14.127051] [0x00007f4b3b34b640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:14.127094] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 86
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>My Heading</h1>
+<p>My paragraph</p>
+</body>
+</html>
+]
+[2023-06-06 23:12:14.127113] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : num bytes in response = 150
+[2023-06-06 23:12:14.127177] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:15.126447] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:15.126590] [0x00007f4b3bb4c640] [info]: Bytes received: 0
+[2023-06-06 23:12:15.132032] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:15.132162] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:15.132202] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:15.132262] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:15.132342] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:15.132414] [0x00007f4b3bb4c640] [info]: Bytes received: 133
+[2023-06-06 23:12:15.132474] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /static1/images/hehe-kitty.png HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+Accept-Language: en-us
+
+
+]
+[2023-06-06 23:12:15.132586] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : requestURI=/static1/images/hehe-kitty.png
+[2023-06-06 23:12:15.132643] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : result=/static1/images
+[2023-06-06 23:12:15.132682] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : match function returned loc=/static1/images
+[2023-06-06 23:12:15.132720] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : found longest match=/static1/images
+[2023-06-06 23:12:15.132763] [0x00007f4b3bb4c640] [info]: StaticRequestHandler :: Constructor
+[2023-06-06 23:12:15.132807] [0x00007f4b3bb4c640] [info]: StaticRequestHandler :: Constructor : config is good, loc=/static1/images and root=../data/data_images
+[2023-06-06 23:12:15.132854] [0x00007f4b3bb4c640] [info]: StaticRequestHandler: handleRequest : Longest matched path for /static1/images/hehe-kitty.png is /static1/images
+[2023-06-06 23:12:15.132888] [0x00007f4b3bb4c640] [info]: StaticRequestHandler: handleRequest : File path to be used is ../data/data_images/hehe-kitty.png
+[2023-06-06 23:12:15.133464] [0x00007f4b3bb4c640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:15.133527] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: image/png
+Content-Length: 6140
+
+âPNG
+
+   IHDR   2   2   ?à±   sRGB ÆŒÈ   gAMA  ±è¸a   	pHYs  ƒ  ƒï+   eXIfMM *          “Sì  wIDAThC=ö…è˜u«_-ΩTÔ€ÙÏ$áîh7…≤DI¥∞ì 	r…!á A` ó$ßÿÜ$@êú ∑¸|àE≤2,Ÿ≤•ê≤DrDŒﬁ{WwUwÂÛ˝5Èªß∫Í˜{À˜Ω˜}Ø∆˚Ô∑ˇ3Kí©Õìô•≥ÿf≥9«Ã&„æ]\\ÿrπ¥ å,écçFvz~f…bnπ\ŒÚ9ﬂˆˆˆ¨”Ó⁄h0¥√áü[πQ≥•Áôœ=„Òÿã•-íòı∆fñY±\¥tôXØfπ†»Q∞–À€÷v◊ä≈–≤∆——ëE≈íyægïJ≈RÓ”kë.,‰,*‰≠QØZ±Yµ\µ\öÔyK[fKS‡òs§¸æ4œ2œGË•≈Û©-8Á#x."XÇL©-”‘r^¿be+‰,\±dÊ[ñeÊ°êÑ_Í@(}g∞dûZ‡Á-ä*∂∂÷µzΩ¬Á»Ç ‡zouΩó±'F‡»˘æ˘Ë‚ÛÌíﬂC‰(r}û=√0p˚˝´%ñ"\∂@˜Â¬Ω{7Û≥H6ü¢õá^ŒZÕÜ-îûbmî±FëÀ•≤Ì^∫l∏œJï™
+EÛ@mTÎV*,‚∫$M¨ Ôù÷¶]ªz›÷ª]€‹Z∑Z≠bIír$Ïä2X?ù#SäIQbπ¿ê∂På\…yGhë‚XE∏0ù+‡ï¶3IQL÷GÀ U◊p.µ|1∞JÑ4Õ›·Ò‰C[€X≥Õù-k7õ∂ΩæaıfŸÇõmÌÏ ©íï™x.ó∑RT∞Àóv≠ÅíùV«6∏>√Û«««6a ºº@¯ÄΩ¿P¿ ÁÂ¡¢Ö¯k:ôXøﬂ∑π‰∆012˘3Ç‘\ûBÚ „2¸|tqÅÖŒà≈I®¯ ß”il˝ÅãÉBÂ9´◊‰<◊hXëkîzΩf›N« Q…*•8Å£ÆÅgø2ÙYK±˝oÃ¥Pà¨›n„≈™S&AûäƒAôªnπƒ#≥OÄ[¡b}\∆≈…<F–	7áŒµZº’®ªD ¸Á¬÷ZpÕ#‡AÌÖbû8Ú÷'(÷¨’-O∆†‰íπˆ ,*ÂQ& ç9«Úôã!BG»€[[v˘ ªtÈíµ[-†Z∂fΩnußò‚
+OÀÊ«(¢õ§ï≈ÀrILÄ◊8-≤ƒ÷∂€∂µª…bWl{{G€Y<Ûw¬Ω Å¡è!‰E„\U≠ß2V\Ã¨BBh7ö÷Æµπ‘≥ÛÛsVÒ-‡Êê¿|Çñ{
+$ì /˙-ﬂøq√v∂∑˘∆lÇ'Ç•º»RKyd Û\éï< ¡:·Ùí21VWµ÷⁄∂}i«v¿Û.Ÿ‹BôÀWÏRº°kö≠:BFÈ
+ØU&Q( ≠≤bÉî[vá,⁄Oü]ú≈ #Ë∏kÅ^àW§ƒ›ªw…jk.’À:÷FDÆ+Û9|&3äá~hy\(Àdh´lU"-*’∞¢ÚÙjÉ»÷⁄€È%Çs”YPA['ü≥îM„±Éúœz.ìã.-V´§Vev¯Nñ◊«ì°=}Ú‘¡LêRZ◊} ZÇ◊˛˛æ]ªv•∏Øë5{ñ¨ãr5bQnR¶K	Ö‡èˇ‡·Sãƒ≥ƒr∏+@9·?|ç’®Åó√ [õ€‡~B<\Í¨T®8HÓóJΩ≤¨6PÄ*~T´µö´#„Òàtöê î…™ŒK)¬jy{ã∏xÛ≠7¨ILJâJ1Y"kïWe/ß8âö‡SlÙªﬂ9ê1B/(rrc)"xÿ<rÔ9ó,ö«  pÇNÉÄã*VW≠¿Õ(´l¶¬V »ü+‚äELÔA@C2ü \∆„¨+èHyoscÀÆ\π¶[l8ú ?˚áaHe.ciá/ärTQ‰˜zΩÅZ|â `4ü#Ø*{Íqq>¥Û≥æùûùŸåÖt] J…:ädèÔ»CEéêZ!e\≈e≥<Î˜!pú%Qy™Ω÷±.Q∆ì«3ÑÀñÅcÎùl>#ŸpÆ7⁄ÒÈ)±ª¨∑¿*åÇ™ ZÂ˝€?˛S÷éú
+D|µå¥˚—c˚Øw~Çkß™>⁄/¨ﬁÆ⁄ù€∑má"wâ÷ ´
+v≈Kó+≈™Ôì…(ëÅ´≤†r~ Éú	ﬂv/Ô‚Õ™+∫2Œ„«_⁄˚ÔhüˇÊ°]pù<ÜûÒ|F±ﬁ›¥ÌÕ-++’®ò∏<C¡2†˜œ˚√l›êï‰·∏›nŸóOéÌG?˙;dq™Ñ´ﬁı!![Ä€ıÀ{ˆı∑ﬁ¥{oΩñ+¿Ç™-è‰
+$0OmôLG¨;‰3–"Û9u'B{"»’´{‹S≤x2≥O>˘ƒﬁ}˜'ˆﬁ{ÿYØoÉx¢Ld°b¡=±î}ÒÖ´v{ˇ∫Ωˆ’ó1\¡zß'vzzl¡∑Óæq ´©∞‡x:µ!¡¯ËÛC˚‚—°ÕÒîOL¥∫k@ÆH@Üx°a«á«ˆèmt◊]m©ë›"CHˆ[¶œPò≤û|'Æ*/`ŒÇW¯6õk.∆>˝ÙæΩ˝ˆ€ˆ”üæèP=R;Ö	t:]é´5ª¿g·bÂ‰¸‘WûÌ4€6M°J(-¶È^“íÕ|.æu}ﬂÓ‹π	ÑnYzAå⁄Ñπí5ÄQD5nwÍ`x‚F]."Ç’%J(íRìÊ–’yIÈUÒrx‡˘¸‰Ã>˛Ëc;>:q≈Mº.Gå-âÉﬁ` kÚÒP¥E|í‚&xYJãÚÎ~¯WùâÑâ„Ã‚ôÌ]ªj˚∑oB)XàÿÈ«∂D–2∞)óäøMØ˛'ø˙µuÈEvv∑ÌÂW^∂fß≈}ômj…phc ‘J™ˆ*∏”ô÷§ü<â'Â˚Ω±=xÖCÇ˚ÙÙ11pö"Ä∞	Ü˘Ù˛g§Ë%^¨€´∑nŸ+wnŸï›-;~zh?˚‡Ã˚õÔ˛u,sïTô¶AÎnÆd9nö!q'Q¸à‘‹$X˙√üˇ¬éûû⁄ÈÚÓΩ{V!Ô3«≥—¿˙‡∑á"ô+‡òÁ√˛∞Ô¨?òLiﬁ˙ƒ—ƒ^†¯©à∂1∆U®PΩﬁ∞)§±O™>:>≈x≈s¿£@∂;kVÇ◊ı{ˆﬁ;ÔX⁄≠€¢¢*2cºs—Îaôs∞7†ÜP Is∫yÃ™X…ıßPå≥ÛÀ±ÿK˚7(å€.≈Ê¿w a·◊L·rÍ-‚pIùR££«”8±#®¢Ë[[túªÆ]Nx`NZ∆x˘åÃ≤?rv*d:`È¡Î¯q]cRæÛÕo®˘Q±°•rÔ¬ΩèeKX®L±€⁄‹pÏs{g◊"b§H∂P{Y‚ÛW^¯ämÆmZeó@`Aú-…ˇs0ÖıÊ≈ª ıJô›¶Í»‘Œè/úÖK¿5$Ê‰°ç,∫E9@Ï{@;=¶~Å e÷ÎàËˆ%a ¸èéâë¯ﬁ2ë/∏ï"j'[ï∫u◊;‘ãmª	{pç(ÏXÅ™<üL<^⁄lH–°4ƒH 3Uê”FZ`òlBlÏb‘≥ßxÈ	PI\J]j@:õùﬁÃŸ.±÷h÷\“Pã†ƒ tàS-ué=ü>}Jç¢\ O©T%}ß‹É≈§˝	V∫Yƒ¨B°S?}uÔ*ÿçh∫äA(¯,Ö©‹¿L<h|>≤≥√≤LY8Å-©)•ZÄ‰•ÅÕQñ¶èò)B¸hy¡∫†]¬Û	m¿”ì;:9vK)BŸn!öÇ2Ú™ÊeËè†>°˛…3¢V¡Ω7ﬁ<E®”—ÈhQ[Õñu[m8œ≈±„≤å,§≈ïB]¬VOø$!,hÑ&s;y»}º0ÖΩ≤±?Ü÷¨A*,{	Õ””#ˆFÆé´E´ÿ•
+l  ≥^JMΩø∞cîyr¸ƒ5lFåÖµ¬ßßgNë<2kD¢û)¡◊Ôﬁ=ê\RF‹®AÊQ}ÈÚ%R]wíÖ0°Z^◊ÄπÉdä[ı≥@–µ‡ÒGüZnàeS+»Íg6É>ÃœŒ-vs†px¯Aé…^‘⁄ÇZª·ÿÙíı?{püÔNÏ—·#Î°LLúf @áP'RÒ6±ËÁc*ıD‚[Dy˝ÓÅpß/‰‚êÍïq Á Ωœ&K¸ÆFhıø⁄!>É›¯¨g«ˇ˜–G=˚¸√_⁄ìèX8%x*fˇ˚Óªˆ„Cwû∫Ç◊%;]ÇjTQ$O¶îrlÊ(¸ Ç®¥?°~ïƒ§)ú3
+oÏ+œ…Ì9±v1Ë9÷≠∫Ê˝˚ø¸k&‹;∫çGÍÍá9>´y™BÍ*j¨p±fW≤äáóBëLËàjF
+›˛Õ˚ø∞Ÿ!åı¬˘©≠C…k¥∞>ñ|pÚ»Nº©]~Ì¶5v6¨ºπfÖ≠ñÅEè^}˜Ï·√áËHuq•rd≥yª¶O	hFFTØ48ø@ë>G≠—<∏◊RNÔ—ºË]SıÇô< Hb'zÆ¨Ê©‘bä0£ê-Òà˙ï2<+—FJ€l6ø∏ÔïHä =àﬁŒı=ã:M+“UñH&j[O¡}a›jjdKÒ/µ…ÍJU’%jö"5Sø$òOÄü<©˛»Eπ5ÒP=ërùRrÅœa!á'∞&Pï1y{“‚˙ë•xc<"s áiFê◊P∂Aö.ëQ–∏á5˚ã<4= Yö«96û≥ñè°⁄æﬁX∑µF÷Ÿîx“ˇåÒrJ·$P[öéi®—´b e2≈ ,û€î§2ù‡µﬂˇˆ∑§©¥”îbGr„yEÍ’©äN'éq£'Ÿ'«ìal√ì°Ë1¶(8Ä2L°‡Çƒê⁄1"ÂÌ ÂmA<$7dØ¡?«ÛªÔ:TÍU^=Kç8§•çW@ÀÎ	Áß-ûä©ßPH)ÈZ1Ã%Ê˝›˜æü`ôrïZOÒùçç€‹‹$7›PM§”Hü©(¬œ®Ã3Çnµ02nÄ’BGÉ’yîùëJ/†˙j£Ø\ΩÑGÚñØó-- ÕR‘j∏gà'ÂiÒ™0≈…ÑÄáSyPí>˝N√ıI´dÉ“–Av‘„®Kﬁ¸⁄kRB‘z}}›•‹5zè<ÖN)W–ë5\ ‡~ucëæZ–/Ol@<§TÒåu‘	éÈÎßdÒ±~[{£kK5enPÄpÙ+kŒdeˆòsü<‚¨è∞y`ﬁ«õUJÅ∆>Ç˛ú4ÔÆ°ûËz°Ëy…–¬˚À?ˇnV&6∂∑∑¡¯¨w7\⁄SÜ5—àsåöõä±ó!Å˚Ï£OÏ—ØÓ[ûn0GêéÒ»H«CpcÒÀõªˆ‚µ1ÖôÿT„ º9§U=I&nà∞N6ÎÇ%OLY#\®Pß€v/Åœœœ(Å	ÖRΩº∞é	áÒÍ˝˝æü©Z˜’~"\≥—^çÉ∏qùÓOSì1‘ª\™@ùÊ§·íEΩ"›b¡g√π˝˙˝Ï·œf3h˘Z> ˚)/ähjÖüÑdWÅ"èñ∏Z≤Ä¨îÉñåÇ•ÌΩxÕnº|€F5eö≤†L;]ˆü∏&LLuÓË‰»MM(!⁄"‘´Œw_˛ÍÅZRqó:,ä≠yñö{ë¥á_|·™Øn»(fä#M'ÂN•Oq≠V£I¸ ;¨#ØîQRè‘cÎ>NÍ≥Ure´P£äPüL—2ÔÌÔ€ã/›∞ 3¢$™Y¢ö#+†)#Æ,(’ËX’ëjÍ(á®|pÔkØH£’Iı⁄s´U°)‡˙˛} É5⁄ÆÒ`Lq§Ì}ÆUäÈ‘∞°Ñ*îÎ®xiÊÊOä÷´PZ§—àöRn6ÏÍÕÎ(qHÌ¿~€Êi˙©NËÂÿSuK}øîKÄò‚D”˘£/ü∫⁄&⁄?óGEº|ÉÇ(º)Â.ÄìÑ“å˜Kxë^R§J¿i—rTqÇØj¢‡E¶¥"Ç;ËÑ\/ó+é|Æù5⁄˙ô5í…nç5j‘(åM´ÒÆZe–}GSX[ ˙¨«ÒlÏ∆Æzh¢b)x˘|'*•ﬂÁƒ[÷›◊0§{Ep{ç)’Ãàm∫s‘Ëö·|UÓ£ïw®ZLYDÁJ@4¿öU:æjçn™“b√Hœ¸àÅ“z◊ -
+ú™v´„î–c6ÕèY8ìŸXO}æ™£`§¯’‡Op§®f’5“rë,¸Œ7æÈ
+¢‹)Î/Hü¢Çõº§ Së SÂŒï¿≤Àâ>»r:´sâìπGmTb’@%ı(">J≠îA¶ÙÅÕ %¥Ñˆ‰ÕΩK=	cq5V´Ÿñ¬ oaDDtäπ«|BEPÉ’M«ıGèµVÛ⁄’äç4•ƒj≈ìUÔÃÇ∞ /‘A4ÛçñïÒDâDP¶Ô–ú*á VW∞Îi*‚bhce◊r+∂ZÊ—AP@`MgH yÕ£â
+°RÙ`0¥£''¢;+ÀÀ“
+(=V<8+sN⁄kQK„Èï5ûYNèÈî”U»∏ÑÄÖGU@VäBK8W@ºD@©YÙH∑©Ñ÷0[⁄+∏pÖjã¯›R{È≈2î{–Ñ¿!9œ_≤ˇlIøûXÇöáóaf.¶∆Aô|ç¯C5Ò¥å,‰¶Í¿Ñ;S6”9)¶åÊp¨ÛrΩ⁄SYPò’ôÃÄh†á:p&üXîn5F9yDÇRÚç¶ZÜ—ÀñıÙÆ8¨≈*7ﬂ*∞W£W≈ánSPùÒïì5W:áJüi⁄§T7Úlú'h5£U@:∑cyuáj/ó∂9Ø|æ‰R:Ç¢8Ü#~!ãá›ê“úK H˜zÊàﬂêA◊–P_ê~ıú™?lÄ}àgâ
+©Æ)vÙ,«OfDEûB)∆T—ﬁx`1B/•X¡HÌF˛\ »-ºû[R…AœœUmı£oX€yàw()#	J+g`]≠ßE‰e˛◊µ*üÓ¨°^H^qœ2ï|4ü&&bóS|∏v≈πÄ>ãb>iÁ^ÓŸû†ƒÓr≠ZLY^ÅÌF2|Ô~w¡˛l(¡ÁUºp‚h`1«äà‚J<ıÿz∆∏_›†îZÕV≠∂] f2üeDe4ëK¡[##Î;ÖπT1Ì&>îÖ‡’;ØPY»≈áFõ´∂Rö!E;2•:>À"Í¥©ƒPQ“n…Ωqÿêo›gº%•649'∏ ó2Ï©	H
+á·~e@}Ã Æ8¬ûY’Ë\©ßXV{ºzÛŒAcq,ÍÊFl:£„CÀıxAH†wue˙õ=Póï◊eV=…ïù≠˘OK)}≠s:tNê*%ºÛ"^sPÂX}ÎÏ¬§ŸE◊H1™0x9ºª⁄Ö'VÉ§dx.∏s}ˇ@PëÖ]∫√
+¬®_†zbiyD¡•q•Fû:Ù ìÀüÌÍÓT¥±ÓqÎ`Ì’g	˘fMΩkØÛ⁄Cçîå„ Ö"Œ˙¨LÅ2°"°’w8o¨bVÔzz¨k1eÕ‡Êã74ÆÁ¨[TDı’ZP±±⁄TÙA•>≈)≤8–ÑCä∫Áπ2ÚíCÀ0n‹ƒy˜ùW†;o=ãCÛ)≠Årz§°6Çe\öÊ∑∂3;â2Èú4M˚wˆoËÈë˛~DÜ§T©©º'U|—1Qg§g÷PµW,∞ß§gÒg?|÷¢≤¨∆©¯9§î>e9ı>ézÛy’ÈüÂ"^NX˝¢¬…°=W€Ë≥ÊYWûÃ˜°`˛gÚßŸ™¢àö(rÉ£⁄»YWõ…•"Üû_∫1&Óv¸àâOÈqú÷K	Cv‹&~_¯+Å%H¿Êzó‰KIƒK km«„∞¥`ˆ¸zÌØÿ◊5∫Gû|QÁ–M%≥,≥ˇb(&¡VŸ≠    IENDÆB`Ç]
+[2023-06-06 23:12:15.133661] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : num bytes in response = 6206
+[2023-06-06 23:12:15.133759] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:16.132613] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:16.132795] [0x00007f4b3b34b640] [info]: Bytes received: 0
+[2023-06-06 23:12:16.138829] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:16.138973] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:16.139015] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:16.139095] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:16.139169] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:16.139264] [0x00007f4b3b34b640] [info]: Bytes received: 89
+[2023-06-06 23:12:16.139286] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[PUT /static1 HTTP.1.1
+Host: example.com
+Content-type: text/html
+Content-length: 16
+
+]
+[2023-06-06 23:12:16.139338] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : requestURI=/static1
+[2023-06-06 23:12:16.139368] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : result=/static1
+[2023-06-06 23:12:16.139383] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : match function returned loc=/static1
+[2023-06-06 23:12:16.139402] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : found longest match=/static1
+[2023-06-06 23:12:16.139426] [0x00007f4b3b34b640] [info]: StaticRequestHandler :: Constructor
+[2023-06-06 23:12:16.139446] [0x00007f4b3b34b640] [info]: StaticRequestHandler :: Constructor : config is good, loc=/static1 and root=../data/data_other
+[2023-06-06 23:12:16.139468] [0x00007f4b3b34b640] [info]: StaticRequestHandler :: handleRequest : echoing non-GET request
+[2023-06-06 23:12:16.139505] [0x00007f4b3b34b640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:16.139535] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 89
+
+PUT /static1 HTTP/1.1
+Host: example.com
+Content-type: text/html
+Content-length: 16
+
+]
+[2023-06-06 23:12:16.139590] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : num bytes in response = 154
+[2023-06-06 23:12:16.139680] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:17.138947] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:17.139107] [0x00007f4b3bb4c640] [info]: Bytes received: 0
+[2023-06-06 23:12:17.151364] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:17.151521] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:17.151595] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:17.151665] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:17.151732] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:17.151872] [0x00007f4b3bb4c640] [info]: Bytes received: 102
+[2023-06-06 23:12:17.151920] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /static1/text/sample.html HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.81.0
+Accept: */*
+
+]
+[2023-06-06 23:12:17.152005] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : requestURI=/static1/text/sample.html
+[2023-06-06 23:12:17.152041] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : result=/static1/text
+[2023-06-06 23:12:17.152079] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : match function returned loc=/static1/text
+[2023-06-06 23:12:17.152107] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : found longest match=/static1/text
+[2023-06-06 23:12:17.152140] [0x00007f4b3bb4c640] [info]: StaticRequestHandler :: Constructor
+[2023-06-06 23:12:17.152168] [0x00007f4b3bb4c640] [info]: StaticRequestHandler :: Constructor : config is good, loc=/static1/text and root=../data/data_text
+[2023-06-06 23:12:17.152203] [0x00007f4b3bb4c640] [info]: StaticRequestHandler: handleRequest : Longest matched path for /static1/text/sample.html is /static1/text
+[2023-06-06 23:12:17.152377] [0x00007f4b3bb4c640] [info]: StaticRequestHandler: handleRequest : File path to be used is ../data/data_text/sample.html
+[2023-06-06 23:12:17.152524] [0x00007f4b3bb4c640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:17.152636] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 86
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>My Heading</h1>
+<p>My paragraph</p>
+</body>
+</html>
+]
+[2023-06-06 23:12:17.152681] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : num bytes in response = 150
+[2023-06-06 23:12:17.152798] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:17.153302] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:17.153363] [0x00007f4b3ab4a640] [info]: Bytes received: 0
+[2023-06-06 23:12:18.169814] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:18.169940] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:18.169990] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:18.170030] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:18.170819] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:18.170924] [0x00007f4b3bb4c640] [info]: Bytes received: 113
+[2023-06-06 23:12:18.170948] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /static1/images/orange-sun-small.jpg HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.81.0
+Accept: */*
+
+]
+[2023-06-06 23:12:18.171009] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : requestURI=/static1/images/orange-sun-small.jpg
+[2023-06-06 23:12:18.171041] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : result=/static1/images
+[2023-06-06 23:12:18.171075] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : match function returned loc=/static1/images
+[2023-06-06 23:12:18.171102] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : found longest match=/static1/images
+[2023-06-06 23:12:18.171131] [0x00007f4b3bb4c640] [info]: StaticRequestHandler :: Constructor
+[2023-06-06 23:12:18.171159] [0x00007f4b3bb4c640] [info]: StaticRequestHandler :: Constructor : config is good, loc=/static1/images and root=../data/data_images
+[2023-06-06 23:12:18.171181] [0x00007f4b3bb4c640] [info]: StaticRequestHandler: handleRequest : Longest matched path for /static1/images/orange-sun-small.jpg is /static1/images
+[2023-06-06 23:12:18.171218] [0x00007f4b3bb4c640] [info]: StaticRequestHandler: handleRequest : File path to be used is ../data/data_images/orange-sun-small.jpg
+[2023-06-06 23:12:18.171383] [0x00007f4b3bb4c640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:18.171430] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: image/jpeg
+Content-Length: 1295
+
+ˇÿˇ‡ JFIF      ˇ€ C 		
+
+	 "" $(4,$&1'-=-157:::#+?D?8C49:7ˇ€ C
+
+
+7%%77777777777777777777777777777777777777777777777777ˇ¿  A 2" ˇƒ           	
+ˇƒ µ   } !1AQa"q2Åë°#B±¡R—$3brÇ	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzÉÑÖÜáàâäíìîïñóòôö¢£§•¶ß®©™≤≥¥µ∂∑∏π∫¬√ƒ≈∆«»… “”‘’÷◊ÿŸ⁄·‚„‰ÂÊÁËÈÍÒÚÛÙıˆ˜¯˘˙ˇƒ        	
+ˇƒ µ  w !1AQaq"2ÅBë°±¡	#3Rbr—
+$4·%Ò&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzÇÉÑÖÜáàâäíìîïñóòôö¢£§•¶ß®©™≤≥¥µ∂∑∏π∫¬√ƒ≈∆«»… “”‘’÷◊ÿŸ⁄‚„‰ÂÊÁËÈÍÚÛÙıˆ˜¯˘˙ˇ⁄   ? ¿©R"‹‡”≠‚›ÇjÊ’årkÀg—X¨∂˘ÌH÷¯Ïj÷Ûö7û‚êÏg∫=2¥då:í*ÑâµÒLM¢è∆è∆ùÑjB°W<Ry"•˜cÎBŒ™Gäó++öFÌÿbƒÓ2ë±˜öPÉÇ>ı–⁄ƒÇ ı™ö¥J∏aåÁ•r«‹¨—”*)F˜2ê`„<U{®«&≠cöm¬Âz◊Zg+hÀ⁄(⁄*Rúı§ŸÔUq…Ã}zRrı™0ÍëúÌRF?Zñk°¥b>gÜ°”{3?¨√tl€ﬁ≤GÜG8ÓVªùÁ`X;VY‘N¬Bdån¶çIáÑ«Q4"Ó«I´¬ÜÂ@#ÎI:±‡!?ATõQTRJ„”ü˛µg›ÍÂãmB1ŒÌ›?V™öf/mÕ)ˇ Áõˇ ﬂ&è%ˇ Áõˇ ﬂ&≤ˇ ∂Ò¡`HÍr¬èÌ¡Í?3˛^»èÆy–›®aÛ`U‰æ@∏i ı5œ£˘/¥FFIØ¯z”K…-…XîÒú∞«QäŸNjè"â:OåYA<Äx§ñÂ#è*g¶:ö∆éIpø0ÍXz~}*9da"Ô,HÅ¸=~µú§∫ºKHªq|¨ÖïèÁÉäÕyY……lzuß¯Ÿ»√3ûv¡ı…Ù¶IpåI€úé‹t«zﬁåÈm3?op;I…ÎÙ£˛E9t˜eK'#?pç/ˆtüÛ÷O˚‡ÒU’l?Ûáµqˇ -ˇ ‹OÎUÌ„Âˇ ‰j≈«¸∑ˇ q?≠Wµˇ èó¸ëØ4Êé‰◊ÚÔ˝öî˝…>¥óÚÔ˝öî˝…>µ3ÿöÇO˜WËø˙¶€»F˜á˛ÉNüÓØ—Ù!M∂ˇ êå?Ô˝àl4KETîˇŸ]
+[2023-06-06 23:12:18.171457] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : num bytes in response = 1362
+[2023-06-06 23:12:18.171533] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:18.171990] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:18.172054] [0x00007f4b3b34b640] [info]: Bytes received: 0
+[2023-06-06 23:12:19.185943] [0x00007f4b3b34b640] [info]: server :: handle_accept()
+[2023-06-06 23:12:19.186071] [0x00007f4b3b34b640] [info]: Starting new session
+[2023-06-06 23:12:19.186114] [0x00007f4b3b34b640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:19.186167] [0x00007f4b3b34b640] [info]: server :: start_accept()
+[2023-06-06 23:12:19.186227] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:19.186270] [0x00007f4b3bb4c640] [info]: Bytes received: 100
+[2023-06-06 23:12:19.186317] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /static1/text/file1.txt HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.81.0
+Accept: */*
+
+]
+[2023-06-06 23:12:19.186422] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : requestURI=/static1/text/file1.txt
+[2023-06-06 23:12:19.186480] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : result=/static1/text
+[2023-06-06 23:12:19.186518] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : match function returned loc=/static1/text
+[2023-06-06 23:12:19.186592] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : found longest match=/static1/text
+[2023-06-06 23:12:19.186639] [0x00007f4b3bb4c640] [info]: StaticRequestHandler :: Constructor
+[2023-06-06 23:12:19.186675] [0x00007f4b3bb4c640] [info]: StaticRequestHandler :: Constructor : config is good, loc=/static1/text and root=../data/data_text
+[2023-06-06 23:12:19.186722] [0x00007f4b3bb4c640] [info]: StaticRequestHandler: handleRequest : Longest matched path for /static1/text/file1.txt is /static1/text
+[2023-06-06 23:12:19.186755] [0x00007f4b3bb4c640] [info]: StaticRequestHandler: handleRequest : File path to be used is ../data/data_text/file1.txt
+[2023-06-06 23:12:19.186899] [0x00007f4b3bb4c640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:19.186957] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 45
+
+The quick brown fox jumps over the lazy dog.
+]
+[2023-06-06 23:12:19.186998] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : num bytes in response = 110
+[2023-06-06 23:12:19.187117] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:19.187401] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:19.187445] [0x00007f4b3ab4a640] [info]: Bytes received: 0
+[2023-06-06 23:12:20.201019] [0x00007f4b3b34b640] [info]: server :: handle_accept()
+[2023-06-06 23:12:20.201149] [0x00007f4b3b34b640] [info]: Starting new session
+[2023-06-06 23:12:20.201200] [0x00007f4b3b34b640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:20.201272] [0x00007f4b3b34b640] [info]: server :: start_accept()
+[2023-06-06 23:12:20.201607] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:20.201752] [0x00007f4b3c34d640] [info]: Bytes received: 107
+[2023-06-06 23:12:20.201789] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /static1/images/hehe-kitty.png HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.81.0
+Accept: */*
+
+]
+[2023-06-06 23:12:20.201881] [0x00007f4b3c34d640] [info]: ConcreteSession :: match : requestURI=/static1/images/hehe-kitty.png
+[2023-06-06 23:12:20.201934] [0x00007f4b3c34d640] [info]: ConcreteSession :: match : result=/static1/images
+[2023-06-06 23:12:20.201969] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : match function returned loc=/static1/images
+[2023-06-06 23:12:20.202012] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : found longest match=/static1/images
+[2023-06-06 23:12:20.202060] [0x00007f4b3c34d640] [info]: StaticRequestHandler :: Constructor
+[2023-06-06 23:12:20.202097] [0x00007f4b3c34d640] [info]: StaticRequestHandler :: Constructor : config is good, loc=/static1/images and root=../data/data_images
+[2023-06-06 23:12:20.202146] [0x00007f4b3c34d640] [info]: StaticRequestHandler: handleRequest : Longest matched path for /static1/images/hehe-kitty.png is /static1/images
+[2023-06-06 23:12:20.202176] [0x00007f4b3c34d640] [info]: StaticRequestHandler: handleRequest : File path to be used is ../data/data_images/hehe-kitty.png
+[2023-06-06 23:12:20.202810] [0x00007f4b3c34d640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:20.202882] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: image/png
+Content-Length: 6140
+
+âPNG
+
+   IHDR   2   2   ?à±   sRGB ÆŒÈ   gAMA  ±è¸a   	pHYs  ƒ  ƒï+   eXIfMM *          “Sì  wIDAThC=ö…è˜u«_-ΩTÔ€ÙÏ$áîh7…≤DI¥∞ì 	r…!á A` ó$ßÿÜ$@êú ∑¸|àE≤2,Ÿ≤•ê≤DrDŒﬁ{WwUwÂÛ˝5Èªß∫Í˜{À˜Ω˜}Ø∆˚Ô∑ˇ3Kí©Õìô•≥ÿf≥9«Ã&„æ]\\ÿrπ¥ å,écçFvz~f…bnπ\ŒÚ9ﬂˆˆˆ¨”Ó⁄h0¥√áü[πQ≥•Áôœ=„Òÿã•-íòı∆fñY±\¥tôXØfπ†»Q∞–À€÷v◊ä≈–≤∆——ëE≈íyægïJ≈RÓ”kë.,‰,*‰≠QØZ±Yµ\µ\öÔyK[fKS‡òs§¸æ4œ2œGË•≈Û©-8Á#x."XÇL©-”‘r^¿be+‰,\±dÊ[ñeÊ°êÑ_Í@(}g∞dûZ‡Á-ä*∂∂÷µzΩ¬Á»Ç ‡zouΩó±'F‡»˘æ˘Ë‚ÛÌíﬂC‰(r}û=√0p˚˝´%ñ"\∂@˜Â¬Ω{7Û≥H6ü¢õá^ŒZÕÜ-îûbmî±FëÀ•≤Ì^∫l∏œJï™
+EÛ@mTÎV*,‚∫$M¨ Ôù÷¶]ªz›÷ª]€‹Z∑Z≠bIír$Ïä2X?ù#SäIQbπ¿ê∂På\…yGhë‚XE∏0ù+‡ï¶3IQL÷GÀ U◊p.µ|1∞JÑ4Õ›·Ò‰C[€X≥Õù-k7õ∂ΩæaıfŸÇõmÌÏ ©íï™x.ó∑RT∞Àóv≠ÅíùV«6∏>√Û«««6a ºº@¯ÄΩ¿P¿ ÁÂ¡¢Ö¯k:ôXøﬂ∑π‰∆012˘3Ç‘\ûBÚ „2¸|tqÅÖŒà≈I®¯ ß”il˝ÅãÉBÂ9´◊‰<◊hXëkîzΩf›N« Q…*•8Å£ÆÅgø2ÙYK±˝oÃ¥Pà¨›n„≈™S&AûäƒAôªnπƒ#≥OÄ[¡b}\∆≈…<F–	7áŒµZº’®ªD ¸Á¬÷ZpÕ#‡AÌÖbû8Ú÷'(÷¨’-O∆†‰íπˆ ,*ÂQ& ç9«Úôã!BG»€[[v˘ ªtÈíµ[-†Z∂fΩnußò‚
+OÀÊ«(¢õ§ï≈ÀrILÄ◊8-≤ƒ÷∂€∂µª…bWl{{G€Y<Ûw¬Ω Å¡è!‰E„\U≠ß2V\Ã¨BBh7ö÷Æµπ‘≥ÛÛsVÒ-‡Êê¿|Çñ{
+$ì /˙-ﬂøq√v∂∑˘∆lÇ'Ç•º»RKyd Û\éï< ¡:·Ùí21VWµ÷⁄∂}i«v¿Û.Ÿ‹BôÀWÏRº°kö≠:BFÈ
+ØU&Q( ≠≤bÉî[vá,⁄Oü]ú≈ #Ë∏kÅ^àW§ƒ›ªw…jk.’À:÷FDÆ+Û9|&3äá~hy\(Àdh´lU"-*’∞¢ÚÙjÉ»÷⁄€È%Çs”YPA['ü≥îM„±Éúœz.ìã.-V´§Vev¯Nñ◊«ì°=}Ú‘¡LêRZ◊} ZÇ◊˛˛æ]ªv•∏Øë5{ñ¨ãr5bQnR¶K	Ö‡èˇ‡·Sãƒ≥ƒr∏+@9·?|ç’®Åó√ [õ€‡~B<\Í¨T®8HÓóJΩ≤¨6PÄ*~T´µö´#„Òàtöê î…™ŒK)¬jy{ã∏xÛ≠7¨ILJâJ1Y"kïWe/ß8âö‡SlÙªﬂ9ê1B/(rrc)"xÿ<rÔ9ó,ö«  pÇNÉÄã*VW≠¿Õ(´l¶¬V »ü+‚äELÔA@C2ü \∆„¨+èHyoscÀÆ\π¶[l8ú ?˚áaHe.ciá/ärTQ‰˜zΩÅZ|â `4ü#Ø*{Íqq>¥Û≥æùûùŸåÖt] J…:ädèÔ»CEéêZ!e\≈e≥<Î˜!pú%Qy™Ω÷±.Q∆ì«3ÑÀñÅcÎùl>#ŸpÆ7⁄ÒÈ)±ª¨∑¿*åÇ™ ZÂ˝€?˛S÷éú
+D|µå¥˚—c˚Øw~Çkß™>⁄/¨ﬁÆ⁄ù€∑má"wâ÷ ´
+v≈Kó+≈™Ôì…(ëÅ´≤†r~ Éú	ﬂv/Ô‚Õ™+∫2Œ„«_⁄˚ÔhüˇÊ°]pù<ÜûÒ|F±ﬁ›¥ÌÕ-++’®ò∏<C¡2†˜œ˚√l›êï‰·∏›nŸóOéÌG?˙;dq™Ñ´ﬁı!![Ä€ıÀ{ˆı∑ﬁ¥{oΩñ+¿Ç™-è‰
+$0OmôLG¨;‰3–"Û9u'B{"»’´{‹S≤x2≥O>˘ƒﬁ}˜'ˆﬁ{ÿYØoÉx¢Ld°b¡=±î}ÒÖ´v{ˇ∫Ωˆ’ó1\¡zß'vzzl¡∑Óæq ´©∞‡x:µ!¡¯ËÛC˚‚—°ÕÒîOL¥∫k@ÆH@Üx°a«á«ˆèmt◊]m©ë›"CHˆ[¶œPò≤û|'Æ*/`ŒÇW¯6õk.∆>˝ÙæΩ˝ˆ€ˆ”üæèP=R;Ö	t:]é´5ª¿g·bÂ‰¸‘WûÌ4€6M°J(-¶È^“íÕ|.æu}ﬂÓ‹π	ÑnYzAå⁄Ñπí5ÄQD5nwÍ`x‚F]."Ç’%J(íRìÊ–’yIÈUÒrx‡˘¸‰Ã>˛Ëc;>:q≈Mº.Gå-âÉﬁ` kÚÒP¥E|í‚&xYJãÚÎ~¯WùâÑâ„Ã‚ôÌ]ªj˚∑oB)XàÿÈ«∂D–2∞)óäøMØ˛'ø˙µuÈEvv∑ÌÂW^∂fß≈}ômj…phc ‘J™ˆ*∏”ô÷§ü<â'Â˚Ω±=xÖCÇ˚ÙÙ11pö"Ä∞	Ü˘Ù˛g§Ë%^¨€´∑nŸ+wnŸï›-;~zh?˚‡Ã˚õÔ˛u,sïTô¶AÎnÆd9nö!q'Q¸à‘‹$X˙√üˇ¬éûû⁄ÈÚÓΩ{V!Ô3«≥—¿˙‡∑á"ô+‡òÁ√˛∞Ô¨?òLiﬁ˙ƒ—ƒ^†¯©à∂1∆U®PΩﬁ∞)§±O™>:>≈x≈s¿£@∂;kVÇ◊ı{ˆﬁ;ÔX⁄≠€¢¢*2cºs—Îaôs∞7†ÜP Is∫yÃ™X…ıßPå≥ÛÀ±ÿK˚7(å€.≈Ê¿w a·◊L·rÍ-‚pIùR££«”8±#®¢Ë[[túªÆ]Nx`NZ∆x˘åÃ≤?rv*d:`È¡Î¯q]cRæÛÕo®˘Q±°•rÔ¬ΩèeKX®L±€⁄‹pÏs{g◊"b§H∂P{Y‚ÛW^¯ämÆmZeó@`Aú-…ˇs0ÖıÊ≈ª ıJô›¶Í»‘Œè/úÖK¿5$Ê‰°ç,∫E9@Ï{@;=¶~Å e÷ÎàËˆ%a ¸èéâë¯ﬁ2ë/∏ï"j'[ï∫u◊;‘ãmª	{pç(ÏXÅ™<üL<^⁄lH–°4ƒH 3Uê”FZ`òlBlÏb‘≥ßxÈ	PI\J]j@:õùﬁÃŸ.±÷h÷\“Pã†ƒ tàS-ué=ü>}Jç¢\ O©T%}ß‹É≈§˝	V∫Yƒ¨B°S?}uÔ*ÿçh∫äA(¯,Ö©‹¿L<h|>≤≥√≤LY8Å-©)•ZÄ‰•ÅÕQñ¶èò)B¸hy¡∫†]¬Û	m¿”ì;:9vK)BŸn!öÇ2Ú™ÊeËè†>°˛…3¢V¡Ω7ﬁ<E®”—ÈhQ[Õñu[m8œ≈±„≤å,§≈ïB]¬VOø$!,hÑ&s;y»}º0ÖΩ≤±?Ü÷¨A*,{	Õ””#ˆFÆé´E´ÿ•
+l  ≥^JMΩø∞cîyr¸ƒ5lFåÖµ¬ßßgNë<2kD¢û)¡◊Ôﬁ=ê\RF‹®AÊQ}ÈÚ%R]wíÖ0°Z^◊ÄπÉdä[ı≥@–µ‡ÒGüZnàeS+»Íg6É>ÃœŒ-vs†px¯Aé…^‘⁄ÇZª·ÿÙíı?{püÔNÏ—·#Î°LLúf @áP'RÒ6±ËÁc*ıD‚[Dy˝ÓÅpß/‰‚êÍïq Á Ωœ&K¸ÆFhıø⁄!>É›¯¨g«ˇ˜–G=˚¸√_⁄ìèX8%x*fˇ˚Óªˆ„Cwû∫Ç◊%;]ÇjTQ$O¶îrlÊ(¸ Ç®¥?°~ïƒ§)ú3
+oÏ+œ…Ì9±v1Ë9÷≠∫Ê˝˚ø¸k&‹;∫çGÍÍá9>´y™BÍ*j¨p±fW≤äáóBëLËàjF
+›˛Õ˚ø∞Ÿ!åı¬˘©≠C…k¥∞>ñ|pÚ»Nº©]~Ì¶5v6¨ºπfÖ≠ñÅEè^}˜Ï·√áËHuq•rd≥yª¶O	hFFTØ48ø@ë>G≠—<∏◊RNÔ—ºË]SıÇô< Hb'zÆ¨Ê©‘bä0£ê-Òà˙ï2<+—FJ€l6ø∏ÔïHä =àﬁŒı=ã:M+“UñH&j[O¡}a›jjdKÒ/µ…ÍJU’%jö"5Sø$òOÄü<©˛»Eπ5ÒP=ërùRrÅœa!á'∞&Pï1y{“‚˙ë•xc<"s áiFê◊P∂Aö.ëQ–∏á5˚ã<4= Yö«96û≥ñè°⁄æﬁX∑µF÷Ÿîx“ˇåÒrJ·$P[öéi®—´b e2≈ ,û€î§2ù‡µﬂˇˆ∑§©¥”îbGr„yEÍ’©äN'éq£'Ÿ'«ìal√ì°Ë1¶(8Ä2L°‡Çƒê⁄1"ÂÌ ÂmA<$7dØ¡?«ÛªÔ:TÍU^=Kç8§•çW@ÀÎ	Áß-ûä©ßPH)ÈZ1Ã%Ê˝›˜æü`ôrïZOÒùçç€‹‹$7›PM§”Hü©(¬œ®Ã3Çnµ02nÄ’BGÉ’yîùëJ/†˙j£Ø\ΩÑGÚñØó-- ÕR‘j∏gà'ÂiÒ™0≈…ÑÄáSyPí>˝N√ıI´dÉ“–Av‘„®Kﬁ¸⁄kRB‘z}}›•‹5zè<ÖN)W–ë5\ ‡~ucëæZ–/Ol@<§TÒåu‘	éÈÎßdÒ±~[{£kK5enPÄpÙ+kŒdeˆòsü<‚¨è∞y`ﬁ«õUJÅ∆>Ç˛ú4ÔÆ°ûËz°Ëy…–¬˚À?ˇnV&6∂∑∑¡¯¨w7\⁄SÜ5—àsåöõä±ó!Å˚Ï£OÏ—ØÓ[ûn0GêéÒ»H«CpcÒÀõªˆ‚µ1ÖôÿT„ º9§U=I&nà∞N6ÎÇ%OLY#\®Pß€v/Åœœœ(Å	ÖRΩº∞é	áÒÍ˝˝æü©Z˜’~"\≥—^çÉ∏qùÓOSì1‘ª\™@ùÊ§·íEΩ"›b¡g√π˝˙˝Ï·œf3h˘Z> ˚)/ähjÖüÑdWÅ"èñ∏Z≤Ä¨îÉñåÇ•ÌΩxÕnº|€F5eö≤†L;]ˆü∏&LLuÓË‰»MM(!⁄"‘´Œw_˛ÍÅZRqó:,ä≠yñö{ë¥á_|·™Øn»(fä#M'ÂN•Oq≠V£I¸ ;¨#ØîQRè‘cÎ>NÍ≥Ure´P£äPüL—2ÔÌÔ€ã/›∞ 3¢$™Y¢ö#+†)#Æ,(’ËX’ëjÍ(á®|pÔkØH£’Iı⁄s´U°)‡˙˛} É5⁄ÆÒ`Lq§Ì}ÆUäÈ‘∞°Ñ*îÎ®xiÊÊOä÷´PZ§—àöRn6ÏÍÕÎ(qHÌ¿~€Êi˙©NËÂÿSuK}øîKÄò‚D”˘£/ü∫⁄&⁄?óGEº|ÉÇ(º)Â.ÄìÑ“å˜Kxë^R§J¿i—rTqÇØj¢‡E¶¥"Ç;ËÑ\/ó+é|Æù5⁄˙ô5í…nç5j‘(åM´ÒÆZe–}GSX[ ˙¨«ÒlÏ∆Æzh¢b)x˘|'*•ﬂÁƒ[÷›◊0§{Ep{ç)’Ãàm∫s‘Ëö·|UÓ£ïw®ZLYDÁJ@4¿öU:æjçn™“b√Hœ¸àÅ“z◊ -
+ú™v´„î–c6ÕèY8ìŸXO}æ™£`§¯’‡Op§®f’5“rë,¸Œ7æÈ
+¢‹)Î/Hü¢Çõº§ Së SÂŒï¿≤Àâ>»r:´sâìπGmTb’@%ı(">J≠îA¶ÙÅÕ %¥Ñˆ‰ÕΩK=	cq5V´Ÿñ¬ oaDDtäπ«|BEPÉ’M«ıGèµVÛ⁄’äç4•ƒj≈ìUÔÃÇ∞ /‘A4ÛçñïÒDâDP¶Ô–ú*á VW∞Îi*‚bhce◊r+∂ZÊ—AP@`MgH yÕ£â
+°RÙ`0¥£''¢;+ÀÀ“
+(=V<8+sN⁄kQK„Èï5ûYNèÈî”U»∏ÑÄÖGU@VäBK8W@ºD@©YÙH∑©Ñ÷0[⁄+∏pÖjã¯›R{È≈2î{–Ñ¿!9œ_≤ˇlIøûXÇöáóaf.¶∆Aô|ç¯C5Ò¥å,‰¶Í¿Ñ;S6”9)¶åÊp¨ÛrΩ⁄SYPò’ôÃÄh†á:p&üXîn5F9yDÇRÚç¶ZÜ—ÀñıÙÆ8¨≈*7ﬂ*∞W£W≈ánSPùÒïì5W:áJüi⁄§T7Úlú'h5£U@:∑cyuáj/ó∂9Ø|æ‰R:Ç¢8Ü#~!ãá›ê“úK H˜zÊàﬂêA◊–P_ê~ıú™?lÄ}àgâ
+©Æ)vÙ,«OfDEûB)∆T—ﬁx`1B/•X¡HÌF˛\ »-ºû[R…AœœUmı£oX€yàw()#	J+g`]≠ßE‰e˛◊µ*üÓ¨°^H^qœ2ï|4ü&&bóS|∏v≈πÄ>ãb>iÁ^ÓŸû†ƒÓr≠ZLY^ÅÌF2|Ô~w¡˛l(¡ÁUºp‚h`1«äà‚J<ıÿz∆∏_›†îZÕV≠∂] f2üeDe4ëK¡[##Î;ÖπT1Ì&>îÖ‡’;ØPY»≈áFõ´∂Rö!E;2•:>À"Í¥©ƒPQ“n…Ωqÿêo›gº%•649'∏ ó2Ï©	H
+á·~e@}Ã Æ8¬ûY’Ë\©ßXV{ºzÛŒAcq,ÍÊFl:£„CÀıxAH†wue˙õ=Póï◊eV=…ïù≠˘OK)}≠s:tNê*%ºÛ"^sPÂX}ÎÏ¬§ŸE◊H1™0x9ºª⁄Ö'VÉ§dx.∏s}ˇ@PëÖ]∫√
+¬®_†zbiyD¡•q•Fû:Ù ìÀüÌÍÓT¥±ÓqÎ`Ì’g	˘fMΩkØÛ⁄Cçîå„ Ö"Œ˙¨LÅ2°"°’w8o¨bVÔzz¨k1eÕ‡Êã74ÆÁ¨[TDı’ZP±±⁄TÙA•>≈)≤8–ÑCä∫Áπ2ÚíCÀ0n‹ƒy˜ùW†;o=ãCÛ)≠Årz§°6Çe\öÊ∑∂3;â2Èú4M˚wˆoËÈë˛~DÜ§T©©º'U|—1Qg§g÷PµW,∞ß§gÒg?|÷¢≤¨∆©¯9§î>e9ı>ézÛy’ÈüÂ"^NX˝¢¬…°=W€Ë≥ÊYWûÃ˜°`˛gÚßŸ™¢àö(rÉ£⁄»YWõ…•"Üû_∫1&Óv¸àâOÈqú÷K	Cv‹&~_¯+Å%H¿Êzó‰KIƒK km«„∞¥`ˆ¸zÌØÿ◊5∫Gû|QÁ–M%≥,≥ˇb(&¡VŸ≠    IENDÆB`Ç]
+[2023-06-06 23:12:20.202984] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : num bytes in response = 6206
+[2023-06-06 23:12:20.203104] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:20.203619] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:20.203719] [0x00007f4b3bb4c640] [info]: Bytes received: 0
+[2023-06-06 23:12:21.216954] [0x00007f4b3b34b640] [info]: server :: handle_accept()
+[2023-06-06 23:12:21.217100] [0x00007f4b3b34b640] [info]: Starting new session
+[2023-06-06 23:12:21.217151] [0x00007f4b3b34b640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:21.217227] [0x00007f4b3b34b640] [info]: server :: start_accept()
+[2023-06-06 23:12:21.217335] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:21.217440] [0x00007f4b3ab4a640] [info]: Bytes received: 82
+[2023-06-06 23:12:21.217489] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /echo HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.81.0
+Accept: */*
+
+]
+[2023-06-06 23:12:21.217613] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : requestURI=/echo
+[2023-06-06 23:12:21.217664] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : result=/echo
+[2023-06-06 23:12:21.217703] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : match function returned loc=/echo
+[2023-06-06 23:12:21.217744] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : found longest match=/echo
+[2023-06-06 23:12:21.217791] [0x00007f4b3ab4a640] [info]: EchoRequestHandler :: Constructor
+[2023-06-06 23:12:21.217860] [0x00007f4b3ab4a640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:21.217919] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 82
+
+GET /echo HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.81.0
+Accept: */*
+
+]
+[2023-06-06 23:12:21.217944] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : num bytes in response = 147
+[2023-06-06 23:12:21.218012] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:21.218436] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:21.218495] [0x00007f4b3b34b640] [info]: Bytes received: 0
+[2023-06-06 23:12:22.232531] [0x00007f4b3b34b640] [info]: server :: handle_accept()
+[2023-06-06 23:12:22.232700] [0x00007f4b3b34b640] [info]: Starting new session
+[2023-06-06 23:12:22.232798] [0x00007f4b3b34b640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:22.232860] [0x00007f4b3b34b640] [info]: server :: start_accept()
+[2023-06-06 23:12:22.233036] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:22.233158] [0x00007f4b3bb4c640] [info]: Bytes received: 78
+[2023-06-06 23:12:22.233199] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.81.0
+Accept: */*
+
+]
+[2023-06-06 23:12:22.233257] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : requestURI=/
+[2023-06-06 23:12:22.233290] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : result=/
+[2023-06-06 23:12:22.233337] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : match function returned loc=/
+[2023-06-06 23:12:22.233361] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : found longest match=/
+[2023-06-06 23:12:22.233388] [0x00007f4b3bb4c640] [info]: ErrorRequestHandler :: Constructor
+[2023-06-06 23:12:22.233436] [0x00007f4b3bb4c640] [info]: [ResponseMetrics] :: Handler returned Response Code [404]
+[2023-06-06 23:12:22.233479] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 404 Not Found
+Content-Type: text/plain
+Content-Length: 15
+
+404 Not Found
+]
+[2023-06-06 23:12:22.233505] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : num bytes in response = 87
+[2023-06-06 23:12:22.233607] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:22.233894] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:22.233947] [0x00007f4b3ab4a640] [info]: Bytes received: 0
+[2023-06-06 23:12:23.272182] [0x00007f4b3b34b640] [info]: server :: handle_accept()
+[2023-06-06 23:12:23.272307] [0x00007f4b3b34b640] [info]: Starting new session
+[2023-06-06 23:12:23.272356] [0x00007f4b3b34b640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:23.272431] [0x00007f4b3b34b640] [info]: server :: start_accept()
+[2023-06-06 23:12:23.272447] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:23.272530] [0x00007f4b3bb4c640] [info]: Bytes received: 90
+[2023-06-06 23:12:23.272586] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /blahblahhhhh HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.81.0
+Accept: */*
+
+]
+[2023-06-06 23:12:23.272664] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : requestURI=/blahblahhhhh
+[2023-06-06 23:12:23.272722] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : result=
+[2023-06-06 23:12:23.272760] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : match function returned loc=
+[2023-06-06 23:12:23.272808] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : longest match is empty string 
+[2023-06-06 23:12:23.272852] [0x00007f4b3bb4c640] [info]: ErrorRequestHandler :: Constructor
+[2023-06-06 23:12:23.272920] [0x00007f4b3bb4c640] [info]: [ResponseMetrics] :: Handler returned Response Code [404]
+[2023-06-06 23:12:23.272992] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 404 Not Found
+Content-Type: text/plain
+Content-Length: 15
+
+404 Not Found
+]
+[2023-06-06 23:12:23.273036] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : num bytes in response = 87
+[2023-06-06 23:12:23.273132] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:23.273536] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:23.273625] [0x00007f4b3c34d640] [info]: Bytes received: 0
+[2023-06-06 23:12:24.282662] [0x00007f4b3b34b640] [info]: server :: handle_accept()
+[2023-06-06 23:12:24.282765] [0x00007f4b3b34b640] [info]: Starting new session
+[2023-06-06 23:12:24.282792] [0x00007f4b3b34b640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:24.282828] [0x00007f4b3b34b640] [info]: server :: start_accept()
+[2023-06-06 23:12:24.282892] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:24.282910] [0x00007f4b3b34b640] [info]: Bytes received: 127
+[2023-06-06 23:12:24.282926] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET / HTTP/1.1
+Host: www.blahblah.com
+Accept: image/gif, image/jpeg, */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+]
+[2023-06-06 23:12:24.282952] [0x00007f4b3b34b640] [info]: session :: getFields(): incomplete/invalid request received
+[2023-06-06 23:12:24.282970] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : requestURI=/
+[2023-06-06 23:12:24.283001] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : result=/
+[2023-06-06 23:12:24.283015] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : match function returned loc=/
+[2023-06-06 23:12:24.283029] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : found longest match=/
+[2023-06-06 23:12:24.283048] [0x00007f4b3b34b640] [info]: ErrorRequestHandler :: Constructor
+[2023-06-06 23:12:24.283073] [0x00007f4b3b34b640] [info]: [ResponseMetrics] :: Handler returned Response Code [404]
+[2023-06-06 23:12:24.283108] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 404 Not Found
+Content-Type: text/plain
+Content-Length: 15
+
+404 Not Found
+]
+[2023-06-06 23:12:24.283125] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : num bytes in response = 87
+[2023-06-06 23:12:24.283204] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:25.282636] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:25.282783] [0x00007f4b3ab4a640] [info]: Bytes received: 0
+[2023-06-06 23:12:25.290093] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:25.290260] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:25.290327] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:25.290390] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:25.290411] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:25.290473] [0x00007f4b3ab4a640] [info]: Bytes received: 357
+[2023-06-06 23:12:25.290557] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[POST /api/integration_test HTTP/1.1
+Host: www.example.com
+Content-Type: application/json
+Content-Length: 242
+
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "CreateNewDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}
+]
+[2023-06-06 23:12:25.290669] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : requestURI=/api/integration_test
+[2023-06-06 23:12:25.290708] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : result=/api
+[2023-06-06 23:12:25.290773] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : match function returned loc=/api
+[2023-06-06 23:12:25.290814] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : found longest match=/api
+[2023-06-06 23:12:25.290834] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor
+[2023-06-06 23:12:25.290864] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor : config is good, loc=/api and root=../api_dir
+[2023-06-06 23:12:25.290955] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: handleRequest : requestURI: /api/integration_test
+[2023-06-06 23:12:25.290986] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: handleRequest : handling POST request with directory integration_test
+[2023-06-06 23:12:25.291098] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: handlePost : creating file with path ../api_dir/integration_test
+[2023-06-06 23:12:25.291125] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: handlePost : creating file with json body [{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "CreateNewDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}
+]
+[2023-06-06 23:12:25.291218] [0x00007f4b3ab4a640] [info]: [ResponseMetrics] :: Handler returned Response Code [201]
+[2023-06-06 23:12:25.291253] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 201 Created
+Content-Length: 9
+Content-Type: application/json
+Content-Location: /api/integration_test/1
+
+{"id": 1}]
+[2023-06-06 23:12:25.291271] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : num bytes in response = 127
+[2023-06-06 23:12:25.291354] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:26.290362] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:26.290491] [0x00007f4b3b34b640] [info]: Bytes received: 0
+[2023-06-06 23:12:26.296092] [0x00007f4b3b34b640] [info]: server :: handle_accept()
+[2023-06-06 23:12:26.296239] [0x00007f4b3b34b640] [info]: Starting new session
+[2023-06-06 23:12:26.296279] [0x00007f4b3b34b640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:26.296320] [0x00007f4b3b34b640] [info]: server :: start_accept()
+[2023-06-06 23:12:26.296499] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:26.296611] [0x00007f4b3b34b640] [info]: Bytes received: 114
+[2023-06-06 23:12:26.296652] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /api/integration_test/1 HTTP/1.1
+Host: www.example.com
+Content-Type: application/json
+Content-Length: 0
+
+]
+[2023-06-06 23:12:26.296736] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : requestURI=/api/integration_test/1
+[2023-06-06 23:12:26.296775] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : result=/api
+[2023-06-06 23:12:26.296800] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : match function returned loc=/api
+[2023-06-06 23:12:26.296820] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : found longest match=/api
+[2023-06-06 23:12:26.296840] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: Constructor
+[2023-06-06 23:12:26.296861] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: Constructor : config is good, loc=/api and root=../api_dir
+[2023-06-06 23:12:26.296932] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: Constructor : ignoring non-file in crud directory: /usr/src/projects/bro-code/tests/../api_dir/integration_test
+[2023-06-06 23:12:26.296991] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: Constructor : file_path_str in root dir = /usr/src/projects/bro-code/tests/../api_dir/integration_test/1
+[2023-06-06 23:12:26.297026] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: Constructor : set entity_ids entity = integration_test with ids:
+[2023-06-06 23:12:26.297059] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: Constructor : 1
+[2023-06-06 23:12:26.297105] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: handleRequest : requestURI: /api/integration_test/1
+[2023-06-06 23:12:26.297133] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: handleRequest : handling GET request with directory integration_test/1
+[2023-06-06 23:12:26.297214] [0x00007f4b3b34b640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:26.297277] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Length: 242
+Content-Type: application/json
+
+{"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "CreateNewDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}
+]
+[2023-06-06 23:12:26.297306] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : num bytes in response = 314
+[2023-06-06 23:12:26.297376] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:27.296129] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:27.296278] [0x00007f4b3bb4c640] [info]: Bytes received: 0
+[2023-06-06 23:12:27.301981] [0x00007f4b3ab4a640] [info]: server :: handle_accept()
+[2023-06-06 23:12:27.302111] [0x00007f4b3ab4a640] [info]: Starting new session
+[2023-06-06 23:12:27.302186] [0x00007f4b3ab4a640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:27.302277] [0x00007f4b3ab4a640] [info]: server :: start_accept()
+[2023-06-06 23:12:27.302301] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:27.302373] [0x00007f4b3bb4c640] [info]: Bytes received: 358
+[2023-06-06 23:12:27.302420] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[PUT /api/integration_test/1 HTTP/1.1
+Host: www.example.com
+Content-Type: application/json
+Content-Length: 242
+
+{"menu": {
+  "popup": {
+    "menuitem": [
+      {"value": "Close", "onclick": "CloseDoc()"}
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "New", "onclick": "CreateNewDoc()"},
+    ]
+  },
+  "value": "File",
+  "id": "file"
+}}
+]
+[2023-06-06 23:12:27.302489] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : requestURI=/api/integration_test/1
+[2023-06-06 23:12:27.302520] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : result=/api
+[2023-06-06 23:12:27.302568] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : match function returned loc=/api
+[2023-06-06 23:12:27.302613] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : found longest match=/api
+[2023-06-06 23:12:27.302640] [0x00007f4b3bb4c640] [info]: ApiRequestHandler :: Constructor
+[2023-06-06 23:12:27.302663] [0x00007f4b3bb4c640] [info]: ApiRequestHandler :: Constructor : config is good, loc=/api and root=../api_dir
+[2023-06-06 23:12:27.302732] [0x00007f4b3bb4c640] [info]: ApiRequestHandler :: Constructor : ignoring non-file in crud directory: /usr/src/projects/bro-code/tests/../api_dir/integration_test
+[2023-06-06 23:12:27.302825] [0x00007f4b3bb4c640] [info]: ApiRequestHandler :: Constructor : file_path_str in root dir = /usr/src/projects/bro-code/tests/../api_dir/integration_test/1
+[2023-06-06 23:12:27.302863] [0x00007f4b3bb4c640] [info]: ApiRequestHandler :: Constructor : set entity_ids entity = integration_test with ids:
+[2023-06-06 23:12:27.302885] [0x00007f4b3bb4c640] [info]: ApiRequestHandler :: Constructor : 1
+[2023-06-06 23:12:27.302929] [0x00007f4b3bb4c640] [info]: ApiRequestHandler :: handleRequest : requestURI: /api/integration_test/1
+[2023-06-06 23:12:27.302954] [0x00007f4b3bb4c640] [info]: ApiRequestHandler :: handleRequest : handling PUT request with directory integration_test/1
+[2023-06-06 23:12:27.302988] [0x00007f4b3bb4c640] [info]: ApiRequestHandler :: handlePut : modifying file at path: ../api_dir/integration_test/1
+[2023-06-06 23:12:27.303150] [0x00007f4b3bb4c640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:27.303200] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Length: 242
+Content-Type: application/json
+
+{"menu": {
+  "popup": {
+    "menuitem": [
+      {"value": "Close", "onclick": "CloseDoc()"}
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "New", "onclick": "CreateNewDoc()"},
+    ]
+  },
+  "value": "File",
+  "id": "file"
+}}
+]
+[2023-06-06 23:12:27.303228] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : num bytes in response = 314
+[2023-06-06 23:12:27.303296] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:28.301916] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:28.302068] [0x00007f4b3c34d640] [info]: Bytes received: 0
+[2023-06-06 23:12:28.332874] [0x00007f4b3ab4a640] [info]: server :: handle_accept()
+[2023-06-06 23:12:28.333009] [0x00007f4b3ab4a640] [info]: Starting new session
+[2023-06-06 23:12:28.333039] [0x00007f4b3ab4a640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:28.333088] [0x00007f4b3ab4a640] [info]: server :: start_accept()
+[2023-06-06 23:12:28.333174] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:28.333201] [0x00007f4b3ab4a640] [info]: Bytes received: 114
+[2023-06-06 23:12:28.333218] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /api/integration_test/1 HTTP/1.1
+Host: www.example.com
+Content-Type: application/json
+Content-Length: 0
+
+]
+[2023-06-06 23:12:28.333285] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : requestURI=/api/integration_test/1
+[2023-06-06 23:12:28.333311] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : result=/api
+[2023-06-06 23:12:28.333346] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : match function returned loc=/api
+[2023-06-06 23:12:28.333371] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : found longest match=/api
+[2023-06-06 23:12:28.333400] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor
+[2023-06-06 23:12:28.333429] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor : config is good, loc=/api and root=../api_dir
+[2023-06-06 23:12:28.333501] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor : ignoring non-file in crud directory: /usr/src/projects/bro-code/tests/../api_dir/integration_test
+[2023-06-06 23:12:28.333610] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor : file_path_str in root dir = /usr/src/projects/bro-code/tests/../api_dir/integration_test/1
+[2023-06-06 23:12:28.333658] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor : set entity_ids entity = integration_test with ids:
+[2023-06-06 23:12:28.333685] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor : 1
+[2023-06-06 23:12:28.333739] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: handleRequest : requestURI: /api/integration_test/1
+[2023-06-06 23:12:28.333766] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: handleRequest : handling GET request with directory integration_test/1
+[2023-06-06 23:12:28.333847] [0x00007f4b3ab4a640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:28.333891] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Length: 242
+Content-Type: application/json
+
+{"menu": {
+  "popup": {
+    "menuitem": [
+      {"value": "Close", "onclick": "CloseDoc()"}
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "New", "onclick": "CreateNewDoc()"},
+    ]
+  },
+  "value": "File",
+  "id": "file"
+}}
+]
+[2023-06-06 23:12:28.333920] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : num bytes in response = 314
+[2023-06-06 23:12:28.334005] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:29.332943] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:29.333086] [0x00007f4b3b34b640] [info]: Bytes received: 0
+[2023-06-06 23:12:29.339233] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:29.339407] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:29.339475] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:29.339573] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:29.339673] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:29.339756] [0x00007f4b3b34b640] [info]: Bytes received: 112
+[2023-06-06 23:12:29.339778] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /api/integration_test HTTP/1.1
+Host: www.example.com
+Content-Type: application/json
+Content-Length: 0
+
+]
+[2023-06-06 23:12:29.339859] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : requestURI=/api/integration_test
+[2023-06-06 23:12:29.339911] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : result=/api
+[2023-06-06 23:12:29.339927] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : match function returned loc=/api
+[2023-06-06 23:12:29.339942] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : found longest match=/api
+[2023-06-06 23:12:29.339960] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: Constructor
+[2023-06-06 23:12:29.339984] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: Constructor : config is good, loc=/api and root=../api_dir
+[2023-06-06 23:12:29.340052] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: Constructor : ignoring non-file in crud directory: /usr/src/projects/bro-code/tests/../api_dir/integration_test
+[2023-06-06 23:12:29.340108] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: Constructor : file_path_str in root dir = /usr/src/projects/bro-code/tests/../api_dir/integration_test/1
+[2023-06-06 23:12:29.340175] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: Constructor : set entity_ids entity = integration_test with ids:
+[2023-06-06 23:12:29.340193] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: Constructor : 1
+[2023-06-06 23:12:29.340234] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: handleRequest : requestURI: /api/integration_test
+[2023-06-06 23:12:29.340260] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: handleRequest : handling GET request with directory integration_test
+[2023-06-06 23:12:29.340288] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: handleList
+[2023-06-06 23:12:29.340311] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: handleList : root = ../api_dir
+[2023-06-06 23:12:29.340332] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: handleList : directory = integration_test
+[2023-06-06 23:12:29.340354] [0x00007f4b3b34b640] [info]: ApiRequestHandler :: handleList : path = ../api_dir/integration_test
+[2023-06-06 23:12:29.340379] [0x00007f4b3b34b640] [info]: ApiRequestHandler:: handleList : found entity = integration_test in entity_ids
+[2023-06-06 23:12:29.340405] [0x00007f4b3b34b640] [info]: ApiRequestHandler:: handleList : found file 1 in entity_ids
+[2023-06-06 23:12:29.340440] [0x00007f4b3b34b640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:29.340476] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Length: 3
+Content-Type: application/json
+
+[1]]
+[2023-06-06 23:12:29.340502] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : num bytes in response = 73
+[2023-06-06 23:12:29.340608] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:30.339577] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:30.339721] [0x00007f4b3ab4a640] [info]: Bytes received: 0
+[2023-06-06 23:12:30.345736] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:30.345870] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:30.345971] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:30.346044] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:30.346078] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:30.346212] [0x00007f4b3ab4a640] [info]: Bytes received: 117
+[2023-06-06 23:12:30.346241] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[DELETE /api/integration_test/1 HTTP/1.1
+Host: www.example.com
+Content-Type: application/json
+Content-Length: 0
+
+]
+[2023-06-06 23:12:30.346337] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : requestURI=/api/integration_test/1
+[2023-06-06 23:12:30.346398] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : result=/api
+[2023-06-06 23:12:30.346444] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : match function returned loc=/api
+[2023-06-06 23:12:30.346491] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : found longest match=/api
+[2023-06-06 23:12:30.346560] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor
+[2023-06-06 23:12:30.346600] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor : config is good, loc=/api and root=../api_dir
+[2023-06-06 23:12:30.346718] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor : ignoring non-file in crud directory: /usr/src/projects/bro-code/tests/../api_dir/integration_test
+[2023-06-06 23:12:30.346803] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor : file_path_str in root dir = /usr/src/projects/bro-code/tests/../api_dir/integration_test/1
+[2023-06-06 23:12:30.346866] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor : set entity_ids entity = integration_test with ids:
+[2023-06-06 23:12:30.346903] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: Constructor : 1
+[2023-06-06 23:12:30.346974] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: handleRequest : requestURI: /api/integration_test/1
+[2023-06-06 23:12:30.347064] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: handleRequest : handling DELETE request with directory integration_test/1
+[2023-06-06 23:12:30.347196] [0x00007f4b3ab4a640] [info]: ApiRequestHandler :: handleDelete : Deleting file: integration_test/1
+[2023-06-06 23:12:30.347244] [0x00007f4b3ab4a640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:30.347296] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Length: 83
+Content-Type: text/html
+
+<html><head><title>Deleted</title></head><body><h1>File Deleted.</h1></body></html>]
+[2023-06-06 23:12:30.347327] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : num bytes in response = 147
+[2023-06-06 23:12:30.347419] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:31.345644] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:31.345816] [0x00007f4b3bb4c640] [info]: Bytes received: 0
+[2023-06-06 23:12:31.353501] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:31.353670] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:31.353704] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:31.353750] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:31.353828] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:31.353852] [0x00007f4b3c34d640] [info]: Bytes received: 114
+[2023-06-06 23:12:31.353869] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /api/integration_test/1 HTTP/1.1
+Host: www.example.com
+Content-Type: application/json
+Content-Length: 0
+
+]
+[2023-06-06 23:12:31.353924] [0x00007f4b3c34d640] [info]: ConcreteSession :: match : requestURI=/api/integration_test/1
+[2023-06-06 23:12:31.353945] [0x00007f4b3c34d640] [info]: ConcreteSession :: match : result=/api
+[2023-06-06 23:12:31.353960] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : match function returned loc=/api
+[2023-06-06 23:12:31.353974] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : found longest match=/api
+[2023-06-06 23:12:31.353992] [0x00007f4b3c34d640] [info]: ApiRequestHandler :: Constructor
+[2023-06-06 23:12:31.354007] [0x00007f4b3c34d640] [info]: ApiRequestHandler :: Constructor : config is good, loc=/api and root=../api_dir
+[2023-06-06 23:12:31.354074] [0x00007f4b3c34d640] [info]: ApiRequestHandler :: Constructor : ignoring non-file in crud directory: /usr/src/projects/bro-code/tests/../api_dir/integration_test
+[2023-06-06 23:12:31.354134] [0x00007f4b3c34d640] [info]: ApiRequestHandler :: handleRequest : requestURI: /api/integration_test/1
+[2023-06-06 23:12:31.354153] [0x00007f4b3c34d640] [info]: ApiRequestHandler :: handleRequest : handling GET request with directory integration_test/1
+[2023-06-06 23:12:31.354176] [0x00007f4b3c34d640] [error]: ApiRequestHandler :: handleGet : path does not exist: ../api_dir/integration_test/1
+[2023-06-06 23:12:31.354220] [0x00007f4b3c34d640] [info]: [ResponseMetrics] :: Handler returned Response Code [404]
+[2023-06-06 23:12:31.354254] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 404 Not Found
+Content-Length: 15
+Content-Type: text/plain
+
+404 Not Found
+]
+[2023-06-06 23:12:31.354272] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : num bytes in response = 87
+[2023-06-06 23:12:31.354349] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:32.353011] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:32.353198] [0x00007f4b3b34b640] [info]: Bytes received: 0
+[2023-06-06 23:12:32.365187] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:32.365466] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:32.365576] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:32.365646] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:32.365689] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:32.365828] [0x00007f4b3b34b640] [info]: Bytes received: 85
+[2023-06-06 23:12:32.365893] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /sleep/3 HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.81.0
+Accept: */*
+
+]
+[2023-06-06 23:12:32.365978] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : requestURI=/sleep/3
+[2023-06-06 23:12:32.366009] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : result=/sleep
+[2023-06-06 23:12:32.366038] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : match function returned loc=/sleep
+[2023-06-06 23:12:32.366068] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : found longest match=/sleep
+[2023-06-06 23:12:32.366118] [0x00007f4b3b34b640] [info]: BlockRequestHandler :: Constructor
+[2023-06-06 23:12:32.366181] [0x00007f4b3b34b640] [info]: BlockRequestHandler :: handleRequest
+[2023-06-06 23:12:32.366247] [0x00007f4b3b34b640] [info]: BlockRequestHandler :: handleRequest : Sleep time: 3
+[2023-06-06 23:12:32.366819] [0x00007f4b3bb4c640] [info]: server :: handle_accept()
+[2023-06-06 23:12:32.366911] [0x00007f4b3bb4c640] [info]: Starting new session
+[2023-06-06 23:12:32.366953] [0x00007f4b3bb4c640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:32.367040] [0x00007f4b3bb4c640] [info]: server :: start_accept()
+[2023-06-06 23:12:32.367072] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:32.367129] [0x00007f4b3c34d640] [info]: Bytes received: 79
+[2023-06-06 23:12:32.367154] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[HEAD / HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.81.0
+Accept: */*
+
+]
+[2023-06-06 23:12:32.367200] [0x00007f4b3c34d640] [info]: ConcreteSession :: match : requestURI=/
+[2023-06-06 23:12:32.367226] [0x00007f4b3c34d640] [info]: ConcreteSession :: match : result=/
+[2023-06-06 23:12:32.367245] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : match function returned loc=/
+[2023-06-06 23:12:32.367265] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : found longest match=/
+[2023-06-06 23:12:32.367288] [0x00007f4b3c34d640] [info]: ErrorRequestHandler :: Constructor
+[2023-06-06 23:12:32.367318] [0x00007f4b3c34d640] [info]: [ResponseMetrics] :: Handler returned Response Code [404]
+[2023-06-06 23:12:32.367355] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 404 Not Found
+Content-Type: text/plain
+Content-Length: 15
+
+404 Not Found
+]
+[2023-06-06 23:12:32.367378] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read : num bytes in response = 87
+[2023-06-06 23:12:32.367449] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:32.367671] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:32.367713] [0x00007f4b3ab4a640] [info]: Bytes received: 0
+[2023-06-06 23:12:35.366452] [0x00007f4b3b34b640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:35.366632] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 18
+
+200 OK. Sleep 3s
+]
+[2023-06-06 23:12:35.366675] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : num bytes in response = 83
+[2023-06-06 23:12:35.366804] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:35.367604] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:35.367703] [0x00007f4b3ab4a640] [info]: Bytes received: 0
+[2023-06-06 23:12:35.385687] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:35.385790] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:35.385846] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:35.385896] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:35.386007] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:35.386126] [0x00007f4b3bb4c640] [info]: Bytes received: 133
+[2023-06-06 23:12:35.386191] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /health HTTP/1.1
+Host: www.blahblah.com
+Accept: image/gif, image/jpeg, */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+]
+[2023-06-06 23:12:35.386261] [0x00007f4b3bb4c640] [info]: session :: getFields(): incomplete/invalid request received
+[2023-06-06 23:12:35.386318] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : requestURI=/health
+[2023-06-06 23:12:35.386370] [0x00007f4b3bb4c640] [info]: ConcreteSession :: match : result=/health
+[2023-06-06 23:12:35.386414] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : match function returned loc=/health
+[2023-06-06 23:12:35.386459] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : found longest match=/health
+[2023-06-06 23:12:35.386512] [0x00007f4b3bb4c640] [info]: HealthRequestHandler :: Constructor
+[2023-06-06 23:12:35.386601] [0x00007f4b3bb4c640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:35.386692] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 4
+
+OK
+]
+[2023-06-06 23:12:35.386738] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read : num bytes in response = 68
+[2023-06-06 23:12:35.386901] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:36.385933] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:36.386094] [0x00007f4b3b34b640] [info]: Bytes received: 0
+[2023-06-06 23:12:36.392755] [0x00007f4b3b34b640] [info]: server :: handle_accept()
+[2023-06-06 23:12:36.392944] [0x00007f4b3b34b640] [info]: Starting new session
+[2023-06-06 23:12:36.393080] [0x00007f4b3b34b640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:36.393205] [0x00007f4b3b34b640] [info]: server :: start_accept()
+[2023-06-06 23:12:36.393335] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:36.393438] [0x00007f4b3b34b640] [info]: Bytes received: 80
+[2023-06-06 23:12:36.393481] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[GET /board HTTP/1.1
+Connection: keep-alive
+Accept-Language: en-US,en;q=0.9
+
+]
+[2023-06-06 23:12:36.393618] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : requestURI=/board
+[2023-06-06 23:12:36.393670] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : result=/board
+[2023-06-06 23:12:36.393746] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : match function returned loc=/board
+[2023-06-06 23:12:36.393840] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : found longest match=/board
+[2023-06-06 23:12:36.394523] [0x00007f4b3b34b640] [info]: BoardHandlerFactory :: create
+[2023-06-06 23:12:36.394650] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: Constructor
+[2023-06-06 23:12:36.394695] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: Constructor : config is good, loc=/board and root=../board
+[2023-06-06 23:12:36.394755] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: Constructor : root path ../board does not exist, creating now
+[2023-06-06 23:12:36.394935] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: in handleRequest
+[2023-06-06 23:12:36.395891] [0x00007f4b3b34b640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:36.395979] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 6893
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+* { font-family: sans-serif; } 
+body { background-color: aliceblue; }
+p { color: blue; }
+p, input, label { margin: 8px; }
+input[type=submit] { background-color: powderblue; padding: 10px; border: none; }
+input[type=submit]:hover { background-color: blue; color: white; }
+</style>
+
+<script>
+    function crudTypeSelectionHandler(ans) {
+        if (ans == "create-board") {
+            document.getElementById("BoardID").style.display = "block";
+            document.querySelector("#BoardID input").required = false;
+            document.getElementById("BoardPin").style.display = "block";
+            document.querySelector("#BoardPin input").required = true;
+            document.getElementById("NoteID").style.display = "none";
+            document.querySelector("#NoteID input").required = false;
+            document.getElementById("NoteText").style.display = "none";
+            document.querySelector("#NoteText input").required = false;
+        } 
+        else if (ans == "view-board") {
+            document.getElementById("BoardID").style.display = "block";
+            document.querySelector("#BoardID input").required = false;
+            document.getElementById("BoardPin").style.display = "none";
+            document.querySelector("#BoardPin input").required = false;
+            document.getElementById("NoteID").style.display = "none";
+            document.querySelector("#NoteID input").required = false;
+            document.getElementById("NoteText").style.display = "none";
+            document.querySelector("#NoteText input").required = false;
+        }
+        else if (ans == "post-note") {
+            document.getElementById("BoardID").style.display = "block";
+            document.querySelector("#BoardID input").required = false;
+            document.getElementById("BoardPin").style.display = "block";
+            document.querySelector("#BoardPin input").required = true;
+            document.getElementById("NoteID").style.display = "none";
+            document.querySelector("#NoteID input").required = false;
+            document.getElementById("NoteText").style.display = "block";
+            document.querySelector("#NoteText input").required = true;
+        }
+        else if (ans == "delete-note") {
+            document.getElementById("BoardID").style.display = "block";
+            document.querySelector("#BoardID input").required = false;
+            document.getElementById("BoardPin").style.display = "block";
+            document.querySelector("#BoardPin input").required = true;
+            document.getElementById("NoteID").style.display = "block";
+            document.querySelector("#NoteID input").required = true;
+            document.getElementById("NoteText").style.display = "none";
+            document.querySelector("#NoteText input").required = false;
+        }
+        else if (ans == "update-note") {
+            document.getElementById("BoardID").style.display = "block";
+            document.querySelector("#BoardID input").required = false;
+            document.getElementById("BoardPin").style.display = "block";
+            document.querySelector("#BoardPin input").required = true;
+            document.getElementById("NoteID").style.display = "block";
+            document.querySelector("#NoteID input").required = true;
+            document.getElementById("NoteText").style.display = "block";
+            document.querySelector("#NoteText input").required = true;
+        }
+        else if (ans == "get-boards") {
+            document.getElementById("BoardID").style.display = "none";
+            document.querySelector("#BoardID input").required = false;
+            document.getElementById("BoardPin").style.display = "none";
+            document.querySelector("#BoardPin input").required = false;
+            document.getElementById("NoteID").style.display = "none";
+            document.querySelector("#NoteID input").required = false;
+            document.getElementById("NoteText").style.display = "none";
+            document.querySelector("#NoteText input").required = false;
+        }
+    }
+</script>
+<h2>Bulletin Board</h2>
+<h3>CS 130 Assignment 9</h3>
+
+<form action="/board" method="post" enctype="text/plain">
+    <!-- User can do one of 5 things: create new board, view existing board, create, delete, or update a note on existing board -->
+    <div id="CRUDOptions"<br/>
+    <p>Please select one:</p>
+        <input type="radio" id="create-board" name="crud-type" value="create-board" onchange="crudTypeSelectionHandler(this.value)">
+        <label for="create-board">Create a new board</label><br>
+        <input type="radio" id="view-board" name="crud-type" value="view-board" onchange="crudTypeSelectionHandler(this.value)">
+        <label for="view-board">View the board</label><br>
+        <input type="radio" id="get-boards" name="crud-type" value="get-boards" onchange="crudTypeSelectionHandler(this.value)">
+        <label for="view-board">Get names of all existing boards</label><br>
+        <input type="radio" id="post-note" name="crud-type" value="post-note" onchange="crudTypeSelectionHandler(this.value)">
+        <label for="post-note">Post a new note on an existing board</label><br>
+        <input type="radio" id="delete-note" name="crud-type" value="delete-note" onchange="crudTypeSelectionHandler(this.value)">
+        <label for="delete-note">Delete a note from an existing board</label><br>
+        <input type="radio" id="update-note" name="crud-type" value="update-note" onchange="crudTypeSelectionHandler(this.value)">
+        <label for="update-note">Update a note on an existing board</label><br>
+    </div>
+
+    <!-- User enters the name for the board (either new name, or name or existing board) -->
+    <div id="BoardID" <br/>
+        <p>Enter a name for the new board or name of the existing board (name must consist of alphanumeric characters only)</p>
+        <label for="board-ID">Board ID: </label>
+        <input type="text" id="board-ID" name="board-ID"><br>
+    </div> 
+    <div id="BoardPin"<br/>
+        <p>Enter the pin for the board (must be 4 digits)</p>
+        <label for="board-PIN">Board PIN: </label>
+        <input type="text" id="board-PIN" name="board-PIN"><br>
+    </div>
+
+    <div id="NoteID" style="display:none;"<br/>
+        <p>Enter the note ID (must be numeric)</p>
+        <label for="note-ID">Note ID: </label>
+        <input type="text" id="note-ID" name="note-ID"><br>
+    </div>
+
+    <div id="NoteText" style="display:none;"<br/>
+        <p>Enter the text to be written on the note</p>
+        <label for="note-text">Note contents: </label>
+        <input type="text" id="note-text" name="note-text"><br>
+    </div>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+]
+[2023-06-06 23:12:36.396081] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : num bytes in response = 6959
+[2023-06-06 23:12:36.396192] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:37.392318] [0x00007f4b3c34d640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:37.392444] [0x00007f4b3c34d640] [info]: Bytes received: 0
+[2023-06-06 23:12:37.399354] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:37.399631] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:37.399723] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:37.399788] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:37.399840] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:37.399938] [0x00007f4b3ab4a640] [info]: Bytes received: 164
+[2023-06-06 23:12:37.399996] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[POST /board HTTP/1.1
+Connection: keep-alive
+Accept-Language: en-US,en;q=0.9
+
+crud-type=create-board
+board-ID=crazyboard
+board-PIN=1234
+note-ID=
+note-text=
+]
+[2023-06-06 23:12:37.400077] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : requestURI=/board
+[2023-06-06 23:12:37.400136] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : result=/board
+[2023-06-06 23:12:37.400160] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : match function returned loc=/board
+[2023-06-06 23:12:37.400180] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : found longest match=/board
+[2023-06-06 23:12:37.400204] [0x00007f4b3ab4a640] [info]: BoardHandlerFactory :: create
+[2023-06-06 23:12:37.400228] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: Constructor
+[2023-06-06 23:12:37.400251] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: Constructor : config is good, loc=/board and root=../board
+[2023-06-06 23:12:37.400345] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: in handleRequest
+[2023-06-06 23:12:37.400386] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: parseBoardRequest : crudType=[create-board]
+[2023-06-06 23:12:37.400401] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: parseBoardRequest : boardID=[crazyboard]
+[2023-06-06 23:12:37.400416] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: parseBoardRequest : boardPIN=[1234]
+[2023-06-06 23:12:37.400430] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: parseBoardRequest : noteID=[]
+[2023-06-06 23:12:37.400445] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: parseBoardRequest : noteText=[]
+[2023-06-06 23:12:37.400461] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: handleRequest : checked boardID [crazyboard] is alphanumeric
+[2023-06-06 23:12:37.400478] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: handleRequest : checked boardPIN [1234] is 4 digits
+[2023-06-06 23:12:37.400497] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: handleRequest : checked noteID [] is numeric
+[2023-06-06 23:12:37.400516] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: handleRequest : calling create new-board
+[2023-06-06 23:12:37.400671] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: createBoard : creating file with path ../board/crazyboard
+[2023-06-06 23:12:37.400717] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: createBoard : creating file with body [1234]
+[2023-06-06 23:12:37.400838] [0x00007f4b3ab4a640] [info]: [ResponseMetrics] :: Handler returned Response Code [201]
+[2023-06-06 23:12:37.400912] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 201 Created
+Content-Length: 62
+Content-Type: text/plain
+Content-Location: /board/crazyboard
+
+Successfully created board with ID: crazyboard and PIN: 1234
+]
+[2023-06-06 23:12:37.400952] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : num bytes in response = 169
+[2023-06-06 23:12:37.401071] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:38.398595] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:38.398743] [0x00007f4b3b34b640] [info]: Bytes received: 0
+[2023-06-06 23:12:38.404523] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:38.404682] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:38.404897] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:38.405020] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:38.405057] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:38.405177] [0x00007f4b3b34b640] [info]: Bytes received: 177
+[2023-06-06 23:12:38.405214] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[POST /board HTTP/1.1
+Connection: keep-alive
+Accept-Language: en-US,en;q=0.9
+
+crud-type=post-note
+board-ID=crazyboard
+board-PIN=1234
+note-ID=
+note-text=This is the note
+]
+[2023-06-06 23:12:38.405281] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : requestURI=/board
+[2023-06-06 23:12:38.405319] [0x00007f4b3b34b640] [info]: ConcreteSession :: match : result=/board
+[2023-06-06 23:12:38.405334] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : match function returned loc=/board
+[2023-06-06 23:12:38.405349] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : found longest match=/board
+[2023-06-06 23:12:38.405409] [0x00007f4b3b34b640] [info]: BoardHandlerFactory :: create
+[2023-06-06 23:12:38.405434] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: Constructor
+[2023-06-06 23:12:38.405453] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: Constructor : config is good, loc=/board and root=../board
+[2023-06-06 23:12:38.405514] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: Constructor : ignoring non-file in crud directory: /usr/src/projects/bro-code/tests/../board/crazyboard
+[2023-06-06 23:12:38.405620] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: Constructor : file_path_str in root dir = /usr/src/projects/bro-code/tests/../board/crazyboard/pin
+[2023-06-06 23:12:38.405739] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: Constructor : set board_pins board = crazyboard with pin: 1234
+[2023-06-06 23:12:38.405808] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: in handleRequest
+[2023-06-06 23:12:38.405835] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: parseBoardRequest : crudType=[post-note]
+[2023-06-06 23:12:38.405854] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: parseBoardRequest : boardID=[crazyboard]
+[2023-06-06 23:12:38.405872] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: parseBoardRequest : boardPIN=[1234]
+[2023-06-06 23:12:38.405890] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: parseBoardRequest : noteID=[]
+[2023-06-06 23:12:38.405909] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: parseBoardRequest : noteText=[This is the note]
+[2023-06-06 23:12:38.405928] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: handleRequest : checked boardID [crazyboard] is alphanumeric
+[2023-06-06 23:12:38.405947] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: handleRequest : checked boardPIN [1234] is 4 digits
+[2023-06-06 23:12:38.405965] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: handleRequest : checked noteID [] is numeric
+[2023-06-06 23:12:38.405989] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: createNote : Getting next ID, create note request is good.
+[2023-06-06 23:12:38.406010] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: createNote : creating file with path ../board/crazyboard/1
+[2023-06-06 23:12:38.406031] [0x00007f4b3b34b640] [info]: BoardRequestHandler :: createNote : creating file with body [This is the note]
+[2023-06-06 23:12:38.406124] [0x00007f4b3b34b640] [info]: [ResponseMetrics] :: Handler returned Response Code [201]
+[2023-06-06 23:12:38.406166] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 201 Created
+Content-Length: 9
+Content-Type: application/json
+Content-Location: /board/crazyboard/1
+
+{"id": 1}]
+[2023-06-06 23:12:38.406189] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_read : num bytes in response = 123
+[2023-06-06 23:12:38.406261] [0x00007f4b3b34b640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:39.404740] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:39.404930] [0x00007f4b3ab4a640] [info]: Bytes received: 0
+[2023-06-06 23:12:39.410983] [0x00007f4b3c34d640] [info]: server :: handle_accept()
+[2023-06-06 23:12:39.411125] [0x00007f4b3c34d640] [info]: Starting new session
+[2023-06-06 23:12:39.411224] [0x00007f4b3c34d640] [info]: ConcreteSession :: start : start at ip 127.0.0.1
+[2023-06-06 23:12:39.411297] [0x00007f4b3c34d640] [info]: server :: start_accept()
+[2023-06-06 23:12:39.411331] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:39.411448] [0x00007f4b3ab4a640] [info]: Bytes received: 152
+[2023-06-06 23:12:39.411482] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : from IP 127.0.0.1: Msg received is:
+[POST /board HTTP/1.1
+Connection: keep-alive
+Accept-Language: en-US,en;q=0.9
+
+crud-type=get-boards
+board-ID=
+board-PIN=1234
+note-ID=
+note-text=
+]
+[2023-06-06 23:12:39.411617] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : requestURI=/board
+[2023-06-06 23:12:39.411693] [0x00007f4b3ab4a640] [info]: ConcreteSession :: match : result=/board
+[2023-06-06 23:12:39.411711] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : match function returned loc=/board
+[2023-06-06 23:12:39.411727] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : found longest match=/board
+[2023-06-06 23:12:39.411751] [0x00007f4b3ab4a640] [info]: BoardHandlerFactory :: create
+[2023-06-06 23:12:39.411767] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: Constructor
+[2023-06-06 23:12:39.411808] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: Constructor : config is good, loc=/board and root=../board
+[2023-06-06 23:12:39.411880] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: Constructor : ignoring non-file in crud directory: /usr/src/projects/bro-code/tests/../board/crazyboard
+[2023-06-06 23:12:39.411941] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: Constructor : file_path_str in root dir = /usr/src/projects/bro-code/tests/../board/crazyboard/1
+[2023-06-06 23:12:39.412020] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: Constructor : set board_notes board = crazyboard with ids:
+[2023-06-06 23:12:39.412071] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: Constructor : 1
+[2023-06-06 23:12:39.412128] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: Constructor : file_path_str in root dir = /usr/src/projects/bro-code/tests/../board/crazyboard/pin
+[2023-06-06 23:12:39.412203] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: Constructor : set board_pins board = crazyboard with pin: 1234
+[2023-06-06 23:12:39.412282] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: in handleRequest
+[2023-06-06 23:12:39.412336] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: parseBoardRequest : crudType=[get-boards]
+[2023-06-06 23:12:39.412526] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: parseBoardRequest : boardID=[]
+[2023-06-06 23:12:39.412796] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: parseBoardRequest : boardPIN=[1234]
+[2023-06-06 23:12:39.412851] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: parseBoardRequest : noteID=[]
+[2023-06-06 23:12:39.412898] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: parseBoardRequest : noteText=[]
+[2023-06-06 23:12:39.412947] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: handleRequest : checked boardID [] is alphanumeric
+[2023-06-06 23:12:39.412995] [0x00007f4b3ab4a640] [info]: BoardRequestHandler :: handleRequest : checked noteID [] is numeric
+[2023-06-06 23:12:39.413129] [0x00007f4b3ab4a640] [info]: [ResponseMetrics] :: Handler returned Response Code [200]
+[2023-06-06 23:12:39.413197] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : Session responding to IP 127.0.0.1 with:
+[HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 699
+
+<!DOCTYPE html><html><body><style>body { margin: 20px auto; font-family: sans-serif; background:tan; color:#fff; }* { margin: 0; padding: 0; }h1 { margin: 10px; text-align: center; }h2 { margin: 10px; font-size: 6rem; color: darkblue; text-align: center; }h3 { font-size: 1rem; }p { font-size: 1rem; }ul,li { list-style: none; }ul { display: flex; flex-wrap: wrap; justify-content: center; }ul li #note { text-decoration:none; color:#000; background: rgb(255, 255, 120); display:block; height:10em; width:10em; padding:1em; }ul li { margin: 1em; }</style><h1>Bulletin Board - CS130 Assignment 9</h1><h2>Board Names</h2><ul><li><div id="note"><h3>1</h3><p>crazyboard</p></div></li></ul></body></html>]
+[2023-06-06 23:12:39.413251] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_read : num bytes in response = 764
+[2023-06-06 23:12:39.413404] [0x00007f4b3ab4a640] [info]: ConcreteSession :: handle_write
+[2023-06-06 23:12:40.410939] [0x00007f4b3bb4c640] [info]: ConcreteSession :: handle_read :
+[2023-06-06 23:12:40.411263] [0x00007f4b3bb4c640] [info]: Bytes received: 0

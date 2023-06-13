@@ -1,0 +1,13 @@
+http {
+  server {
+    port 8080;
+    location /static1 {
+      # configuration for processing URIs starting with '/static1'
+      root ./data1;
+    }
+    location /static2 {
+      # configuration for processing URIs starting with '/static2'
+      root ./data2;
+    }
+  }
+}

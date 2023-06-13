@@ -1,0 +1,9 @@
+port 8080; # port my server listens on
+
+location /echo EchoHandler { # no arguments
+}
+
+location /board BoardHandler {
+  # DELIBERATELY MISSING ROOT FOR TESTING
+}
+
