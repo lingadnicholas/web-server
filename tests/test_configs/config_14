@@ -1,0 +1,7 @@
+# This is a comment
+foo "bar"; # Another comment
+server { # Comment 
+  # A comment within a block
+}
+# A final comment 
+#
